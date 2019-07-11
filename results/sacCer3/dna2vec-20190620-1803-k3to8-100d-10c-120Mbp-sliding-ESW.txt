@@ -1,0 +1,1983 @@
+[2019-06-20 18:03:37.784342] INFO: Generic: ./scripts/train_dna2vec.py -c configs/sacCer3-20190620-0133.yml
+[2019-06-20 18:03:37.784466] INFO: Generic: kmer fragmenter: sliding
+[2019-06-20 18:03:37.784535] INFO: SeqGenerator: Number of epochs: 10
+[2019-06-20 18:03:37.784580] INFO: Learner: word2vec.FAST_VERSION (should be >= 0): 1
+[2019-06-20 18:03:37.784614] INFO: Learner: Context window half size: 10
+[2019-06-20 18:03:37.784643] INFO: Learner: Use skipgram: 1
+[2019-06-20 18:03:37.784670] INFO: Learner: gensim_iters: 1
+[2019-06-20 18:03:37.784696] INFO: Learner: vec_dim: 100
+[2019-06-20 18:03:37.785010] INFO: gensim.models.word2vec: collecting all words and their counts
+[2019-06-20 18:03:37.785103] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXI.fa
+[2019-06-20 18:03:37.785158] INFO: SeqGenerator: Memory usage: 0.068232 MB
+[2019-06-20 18:03:37.785190] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:03:37.794760] INFO: SeqGenerator: Whole fasta seqlen: 666816
+[2019-06-20 18:03:37.801425] INFO: gensim.models.word2vec: PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+[2019-06-20 18:03:38.990299] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIII.fa
+[2019-06-20 18:03:38.990372] INFO: SeqGenerator: Memory usage: 0.078652 MB
+[2019-06-20 18:03:38.990408] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:03:38.998449] INFO: SeqGenerator: Whole fasta seqlen: 924431
+[2019-06-20 18:03:40.650880] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIV.fa
+[2019-06-20 18:03:40.650969] INFO: SeqGenerator: Memory usage: 0.080808 MB
+[2019-06-20 18:03:40.651013] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:03:40.657687] INFO: SeqGenerator: Whole fasta seqlen: 784333
+[2019-06-20 18:03:42.059225] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXVI.fa
+[2019-06-20 18:03:42.059302] INFO: SeqGenerator: Memory usage: 0.081572 MB
+[2019-06-20 18:03:42.059346] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:03:42.067067] INFO: SeqGenerator: Whole fasta seqlen: 948066
+[2019-06-20 18:03:43.757728] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIV.fa
+[2019-06-20 18:03:43.757800] INFO: SeqGenerator: Memory usage: 0.082084 MB
+[2019-06-20 18:03:43.757836] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:03:43.770477] INFO: SeqGenerator: Whole fasta seqlen: 1531933
+[2019-06-20 18:03:46.511391] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIX.fa
+[2019-06-20 18:03:46.511467] INFO: SeqGenerator: Memory usage: 0.083656 MB
+[2019-06-20 18:03:46.511511] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:03:46.514791] INFO: SeqGenerator: Whole fasta seqlen: 439888
+[2019-06-20 18:03:47.302425] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrX.fa
+[2019-06-20 18:03:47.302493] INFO: SeqGenerator: Memory usage: 0.083656 MB
+[2019-06-20 18:03:47.302529] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:03:47.307821] INFO: SeqGenerator: Whole fasta seqlen: 745751
+[2019-06-20 18:03:48.642096] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrI.fa
+[2019-06-20 18:03:48.642166] INFO: SeqGenerator: Memory usage: 0.083656 MB
+[2019-06-20 18:03:48.642209] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:03:48.643974] INFO: SeqGenerator: Whole fasta seqlen: 230218
+[2019-06-20 18:03:49.057447] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXV.fa
+[2019-06-20 18:03:49.057515] INFO: SeqGenerator: Memory usage: 0.083656 MB
+[2019-06-20 18:03:49.057551] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:03:49.065692] INFO: SeqGenerator: Whole fasta seqlen: 1091291
+[2019-06-20 18:03:51.020318] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrII.fa
+[2019-06-20 18:03:51.020389] INFO: SeqGenerator: Memory usage: 0.083656 MB
+[2019-06-20 18:03:51.020424] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:03:51.026433] INFO: SeqGenerator: Whole fasta seqlen: 813184
+[2019-06-20 18:03:52.483223] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrV.fa
+[2019-06-20 18:03:52.483321] INFO: SeqGenerator: Memory usage: 0.083656 MB
+[2019-06-20 18:03:52.483359] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:03:52.487284] INFO: SeqGenerator: Whole fasta seqlen: 576874
+[2019-06-20 18:03:53.522361] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVI.fa
+[2019-06-20 18:03:53.522429] INFO: SeqGenerator: Memory usage: 0.083656 MB
+[2019-06-20 18:03:53.522464] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:03:53.524460] INFO: SeqGenerator: Whole fasta seqlen: 270161
+[2019-06-20 18:03:54.009114] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVIII.fa
+[2019-06-20 18:03:54.009180] INFO: SeqGenerator: Memory usage: 0.083656 MB
+[2019-06-20 18:03:54.009214] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:03:54.013350] INFO: SeqGenerator: Whole fasta seqlen: 562643
+[2019-06-20 18:03:55.023277] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrM.fa
+[2019-06-20 18:03:55.023347] INFO: SeqGenerator: Memory usage: 0.083656 MB
+[2019-06-20 18:03:55.023383] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:03:55.024099] INFO: SeqGenerator: Whole fasta seqlen: 85779
+[2019-06-20 18:03:55.176840] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVII.fa
+[2019-06-20 18:03:55.176906] INFO: SeqGenerator: Memory usage: 0.083656 MB
+[2019-06-20 18:03:55.176941] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:03:55.184643] INFO: SeqGenerator: Whole fasta seqlen: 1090940
+[2019-06-20 18:03:57.143011] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIII.fa
+[2019-06-20 18:03:57.143082] INFO: SeqGenerator: Memory usage: 0.083656 MB
+[2019-06-20 18:03:57.143118] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:03:57.145511] INFO: SeqGenerator: Whole fasta seqlen: 316620
+[2019-06-20 18:03:57.713258] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXII.fa
+[2019-06-20 18:03:57.713327] INFO: SeqGenerator: Memory usage: 0.083656 MB
+[2019-06-20 18:03:57.713363] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:03:57.721502] INFO: SeqGenerator: Whole fasta seqlen: 1078177
+[2019-06-20 18:03:59.656272] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXI.fa
+[2019-06-20 18:03:59.656344] INFO: SeqGenerator: Memory usage: 0.083656 MB
+[2019-06-20 18:03:59.656378] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:03:59.661561] INFO: SeqGenerator: Whole fasta seqlen: 666816
+[2019-06-20 18:04:00.857358] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIII.fa
+[2019-06-20 18:04:00.857429] INFO: SeqGenerator: Memory usage: 0.083656 MB
+[2019-06-20 18:04:00.857463] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:04:00.864650] INFO: SeqGenerator: Whole fasta seqlen: 924431
+[2019-06-20 18:04:02.525052] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIV.fa
+[2019-06-20 18:04:02.525123] INFO: SeqGenerator: Memory usage: 0.083656 MB
+[2019-06-20 18:04:02.525166] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:04:02.531127] INFO: SeqGenerator: Whole fasta seqlen: 784333
+[2019-06-20 18:04:03.938248] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXVI.fa
+[2019-06-20 18:04:03.938335] INFO: SeqGenerator: Memory usage: 0.083656 MB
+[2019-06-20 18:04:03.938373] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:04:03.945720] INFO: SeqGenerator: Whole fasta seqlen: 948066
+[2019-06-20 18:04:05.649772] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIV.fa
+[2019-06-20 18:04:05.649843] INFO: SeqGenerator: Memory usage: 0.083656 MB
+[2019-06-20 18:04:05.649878] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:04:05.661323] INFO: SeqGenerator: Whole fasta seqlen: 1531933
+[2019-06-20 18:04:08.416078] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIX.fa
+[2019-06-20 18:04:08.416157] INFO: SeqGenerator: Memory usage: 0.084072 MB
+[2019-06-20 18:04:08.416199] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:04:08.419306] INFO: SeqGenerator: Whole fasta seqlen: 439888
+[2019-06-20 18:04:09.211662] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrX.fa
+[2019-06-20 18:04:09.211732] INFO: SeqGenerator: Memory usage: 0.084072 MB
+[2019-06-20 18:04:09.211776] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:04:09.217171] INFO: SeqGenerator: Whole fasta seqlen: 745751
+[2019-06-20 18:04:10.556154] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrI.fa
+[2019-06-20 18:04:10.556225] INFO: SeqGenerator: Memory usage: 0.084072 MB
+[2019-06-20 18:04:10.556269] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:04:10.558116] INFO: SeqGenerator: Whole fasta seqlen: 230218
+[2019-06-20 18:04:10.971500] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXV.fa
+[2019-06-20 18:04:10.971566] INFO: SeqGenerator: Memory usage: 0.084072 MB
+[2019-06-20 18:04:10.971600] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:04:10.979103] INFO: SeqGenerator: Whole fasta seqlen: 1091291
+[2019-06-20 18:04:12.942576] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrII.fa
+[2019-06-20 18:04:12.942648] INFO: SeqGenerator: Memory usage: 0.084072 MB
+[2019-06-20 18:04:12.942692] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:04:12.948739] INFO: SeqGenerator: Whole fasta seqlen: 813184
+[2019-06-20 18:04:14.410124] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrV.fa
+[2019-06-20 18:04:14.410194] INFO: SeqGenerator: Memory usage: 0.084072 MB
+[2019-06-20 18:04:14.410230] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:04:14.414482] INFO: SeqGenerator: Whole fasta seqlen: 576874
+[2019-06-20 18:04:15.451844] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVI.fa
+[2019-06-20 18:04:15.451916] INFO: SeqGenerator: Memory usage: 0.084072 MB
+[2019-06-20 18:04:15.451959] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:04:15.454017] INFO: SeqGenerator: Whole fasta seqlen: 270161
+[2019-06-20 18:04:15.939827] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVIII.fa
+[2019-06-20 18:04:15.939894] INFO: SeqGenerator: Memory usage: 0.084072 MB
+[2019-06-20 18:04:15.939930] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:04:15.944036] INFO: SeqGenerator: Whole fasta seqlen: 562643
+[2019-06-20 18:04:16.954918] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrM.fa
+[2019-06-20 18:04:16.954986] INFO: SeqGenerator: Memory usage: 0.084072 MB
+[2019-06-20 18:04:16.955021] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:04:16.955760] INFO: SeqGenerator: Whole fasta seqlen: 85779
+[2019-06-20 18:04:17.109310] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVII.fa
+[2019-06-20 18:04:17.109375] INFO: SeqGenerator: Memory usage: 0.084072 MB
+[2019-06-20 18:04:17.109409] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:04:17.117189] INFO: SeqGenerator: Whole fasta seqlen: 1090940
+[2019-06-20 18:04:19.080388] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIII.fa
+[2019-06-20 18:04:19.080459] INFO: SeqGenerator: Memory usage: 0.084072 MB
+[2019-06-20 18:04:19.080534] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:04:19.082812] INFO: SeqGenerator: Whole fasta seqlen: 316620
+[2019-06-20 18:04:19.650711] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXII.fa
+[2019-06-20 18:04:19.650778] INFO: SeqGenerator: Memory usage: 0.084072 MB
+[2019-06-20 18:04:19.650813] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:04:19.658992] INFO: SeqGenerator: Whole fasta seqlen: 1078177
+[2019-06-20 18:04:21.596474] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXI.fa
+[2019-06-20 18:04:21.596576] INFO: SeqGenerator: Memory usage: 0.084072 MB
+[2019-06-20 18:04:21.596614] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:04:21.601786] INFO: SeqGenerator: Whole fasta seqlen: 666816
+[2019-06-20 18:04:22.798882] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIII.fa
+[2019-06-20 18:04:22.798951] INFO: SeqGenerator: Memory usage: 0.084072 MB
+[2019-06-20 18:04:22.798987] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:04:22.805601] INFO: SeqGenerator: Whole fasta seqlen: 924431
+[2019-06-20 18:04:24.466045] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIV.fa
+[2019-06-20 18:04:24.466115] INFO: SeqGenerator: Memory usage: 0.084072 MB
+[2019-06-20 18:04:24.466150] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:04:24.472212] INFO: SeqGenerator: Whole fasta seqlen: 784333
+[2019-06-20 18:04:25.881512] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXVI.fa
+[2019-06-20 18:04:25.881582] INFO: SeqGenerator: Memory usage: 0.084072 MB
+[2019-06-20 18:04:25.881625] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:04:25.888415] INFO: SeqGenerator: Whole fasta seqlen: 948066
+[2019-06-20 18:04:27.593634] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIV.fa
+[2019-06-20 18:04:27.593708] INFO: SeqGenerator: Memory usage: 0.084072 MB
+[2019-06-20 18:04:27.593744] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:04:27.605385] INFO: SeqGenerator: Whole fasta seqlen: 1531933
+[2019-06-20 18:04:30.362856] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIX.fa
+[2019-06-20 18:04:30.362958] INFO: SeqGenerator: Memory usage: 0.084196 MB
+[2019-06-20 18:04:30.362999] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:04:30.366407] INFO: SeqGenerator: Whole fasta seqlen: 439888
+[2019-06-20 18:04:31.157458] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrX.fa
+[2019-06-20 18:04:31.157530] INFO: SeqGenerator: Memory usage: 0.084196 MB
+[2019-06-20 18:04:31.157574] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:04:31.162761] INFO: SeqGenerator: Whole fasta seqlen: 745751
+[2019-06-20 18:04:32.502506] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrI.fa
+[2019-06-20 18:04:32.502577] INFO: SeqGenerator: Memory usage: 0.084196 MB
+[2019-06-20 18:04:32.502621] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:04:32.504448] INFO: SeqGenerator: Whole fasta seqlen: 230218
+[2019-06-20 18:04:32.918598] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXV.fa
+[2019-06-20 18:04:32.918665] INFO: SeqGenerator: Memory usage: 0.084196 MB
+[2019-06-20 18:04:32.918700] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:04:32.926701] INFO: SeqGenerator: Whole fasta seqlen: 1091291
+[2019-06-20 18:04:34.889203] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrII.fa
+[2019-06-20 18:04:34.889276] INFO: SeqGenerator: Memory usage: 0.084196 MB
+[2019-06-20 18:04:34.889340] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:04:34.895152] INFO: SeqGenerator: Whole fasta seqlen: 813184
+[2019-06-20 18:04:36.358746] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrV.fa
+[2019-06-20 18:04:36.358817] INFO: SeqGenerator: Memory usage: 0.084196 MB
+[2019-06-20 18:04:36.358852] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:04:36.363126] INFO: SeqGenerator: Whole fasta seqlen: 576874
+[2019-06-20 18:04:37.399548] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVI.fa
+[2019-06-20 18:04:37.399618] INFO: SeqGenerator: Memory usage: 0.084196 MB
+[2019-06-20 18:04:37.399653] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:04:37.401590] INFO: SeqGenerator: Whole fasta seqlen: 270161
+[2019-06-20 18:04:37.886978] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVIII.fa
+[2019-06-20 18:04:37.887045] INFO: SeqGenerator: Memory usage: 0.084196 MB
+[2019-06-20 18:04:37.887081] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:04:37.891253] INFO: SeqGenerator: Whole fasta seqlen: 562643
+[2019-06-20 18:04:38.904992] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrM.fa
+[2019-06-20 18:04:38.905059] INFO: SeqGenerator: Memory usage: 0.084196 MB
+[2019-06-20 18:04:38.905094] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:04:38.905770] INFO: SeqGenerator: Whole fasta seqlen: 85779
+[2019-06-20 18:04:39.059681] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVII.fa
+[2019-06-20 18:04:39.059745] INFO: SeqGenerator: Memory usage: 0.084196 MB
+[2019-06-20 18:04:39.059780] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:04:39.068077] INFO: SeqGenerator: Whole fasta seqlen: 1090940
+[2019-06-20 18:04:41.033821] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIII.fa
+[2019-06-20 18:04:41.033908] INFO: SeqGenerator: Memory usage: 0.084196 MB
+[2019-06-20 18:04:41.033955] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:04:41.036469] INFO: SeqGenerator: Whole fasta seqlen: 316620
+[2019-06-20 18:04:41.608730] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXII.fa
+[2019-06-20 18:04:41.608799] INFO: SeqGenerator: Memory usage: 0.084196 MB
+[2019-06-20 18:04:41.608835] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:04:41.616495] INFO: SeqGenerator: Whole fasta seqlen: 1078177
+[2019-06-20 18:04:43.555316] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXI.fa
+[2019-06-20 18:04:43.555389] INFO: SeqGenerator: Memory usage: 0.084196 MB
+[2019-06-20 18:04:43.555432] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:04:43.560523] INFO: SeqGenerator: Whole fasta seqlen: 666816
+[2019-06-20 18:04:44.760163] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIII.fa
+[2019-06-20 18:04:44.760250] INFO: SeqGenerator: Memory usage: 0.084196 MB
+[2019-06-20 18:04:44.760292] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:04:44.767225] INFO: SeqGenerator: Whole fasta seqlen: 924431
+[2019-06-20 18:04:45.203433] INFO: gensim.models.word2vec: PROGRESS: at sentence #10000, processed 37306900 words, keeping 87359 word types
+[2019-06-20 18:04:46.432507] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIV.fa
+[2019-06-20 18:04:46.432578] INFO: SeqGenerator: Memory usage: 0.084196 MB
+[2019-06-20 18:04:46.432622] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:04:46.438088] INFO: SeqGenerator: Whole fasta seqlen: 784333
+[2019-06-20 18:04:47.851721] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXVI.fa
+[2019-06-20 18:04:47.851791] INFO: SeqGenerator: Memory usage: 0.084196 MB
+[2019-06-20 18:04:47.851827] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:04:47.858215] INFO: SeqGenerator: Whole fasta seqlen: 948066
+[2019-06-20 18:04:49.566178] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIV.fa
+[2019-06-20 18:04:49.566251] INFO: SeqGenerator: Memory usage: 0.084196 MB
+[2019-06-20 18:04:49.566286] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:04:49.578305] INFO: SeqGenerator: Whole fasta seqlen: 1531933
+[2019-06-20 18:04:52.338587] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIX.fa
+[2019-06-20 18:04:52.338662] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:04:52.338706] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:04:52.342122] INFO: SeqGenerator: Whole fasta seqlen: 439888
+[2019-06-20 18:04:53.135030] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrX.fa
+[2019-06-20 18:04:53.135100] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:04:53.135134] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:04:53.141031] INFO: SeqGenerator: Whole fasta seqlen: 745751
+[2019-06-20 18:04:54.484889] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrI.fa
+[2019-06-20 18:04:54.484960] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:04:54.484995] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:04:54.486802] INFO: SeqGenerator: Whole fasta seqlen: 230218
+[2019-06-20 18:04:54.901527] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXV.fa
+[2019-06-20 18:04:54.901596] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:04:54.901632] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:04:54.909800] INFO: SeqGenerator: Whole fasta seqlen: 1091291
+[2019-06-20 18:04:56.874395] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrII.fa
+[2019-06-20 18:04:56.874467] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:04:56.874502] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:04:56.880937] INFO: SeqGenerator: Whole fasta seqlen: 813184
+[2019-06-20 18:04:58.347922] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrV.fa
+[2019-06-20 18:04:58.347993] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:04:58.348028] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:04:58.352278] INFO: SeqGenerator: Whole fasta seqlen: 576874
+[2019-06-20 18:04:59.392558] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVI.fa
+[2019-06-20 18:04:59.392628] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:04:59.392676] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:04:59.394857] INFO: SeqGenerator: Whole fasta seqlen: 270161
+[2019-06-20 18:04:59.880911] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVIII.fa
+[2019-06-20 18:04:59.880979] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:04:59.881014] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:04:59.885401] INFO: SeqGenerator: Whole fasta seqlen: 562643
+[2019-06-20 18:05:00.898232] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrM.fa
+[2019-06-20 18:05:00.898300] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:00.898336] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:05:00.899014] INFO: SeqGenerator: Whole fasta seqlen: 85779
+[2019-06-20 18:05:01.052455] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVII.fa
+[2019-06-20 18:05:01.052535] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:01.052571] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:05:01.059895] INFO: SeqGenerator: Whole fasta seqlen: 1090940
+[2019-06-20 18:05:03.025606] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIII.fa
+[2019-06-20 18:05:03.025677] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:03.025719] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:05:03.027996] INFO: SeqGenerator: Whole fasta seqlen: 316620
+[2019-06-20 18:05:03.598821] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXII.fa
+[2019-06-20 18:05:03.598890] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:03.598933] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:05:03.607082] INFO: SeqGenerator: Whole fasta seqlen: 1078177
+[2019-06-20 18:05:05.551946] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXI.fa
+[2019-06-20 18:05:05.552016] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:05.552051] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:05:05.556849] INFO: SeqGenerator: Whole fasta seqlen: 666816
+[2019-06-20 18:05:06.759863] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIII.fa
+[2019-06-20 18:05:06.759934] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:06.759969] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:05:06.766797] INFO: SeqGenerator: Whole fasta seqlen: 924431
+[2019-06-20 18:05:08.434179] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIV.fa
+[2019-06-20 18:05:08.434250] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:08.434285] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:05:08.439764] INFO: SeqGenerator: Whole fasta seqlen: 784333
+[2019-06-20 18:05:09.853831] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXVI.fa
+[2019-06-20 18:05:09.853904] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:09.853940] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:05:09.860451] INFO: SeqGenerator: Whole fasta seqlen: 948066
+[2019-06-20 18:05:11.568421] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIV.fa
+[2019-06-20 18:05:11.568524] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:11.568562] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:05:11.580371] INFO: SeqGenerator: Whole fasta seqlen: 1531933
+[2019-06-20 18:05:14.341856] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIX.fa
+[2019-06-20 18:05:14.341932] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:14.341975] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:05:14.345399] INFO: SeqGenerator: Whole fasta seqlen: 439888
+[2019-06-20 18:05:15.139960] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrX.fa
+[2019-06-20 18:05:15.140030] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:15.140066] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:05:15.145346] INFO: SeqGenerator: Whole fasta seqlen: 745751
+[2019-06-20 18:05:16.491045] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrI.fa
+[2019-06-20 18:05:16.491116] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:16.491151] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:05:16.492830] INFO: SeqGenerator: Whole fasta seqlen: 230218
+[2019-06-20 18:05:16.907748] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXV.fa
+[2019-06-20 18:05:16.907815] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:16.907851] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:05:16.915994] INFO: SeqGenerator: Whole fasta seqlen: 1091291
+[2019-06-20 18:05:18.880689] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrII.fa
+[2019-06-20 18:05:18.880760] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:18.880795] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:05:18.886659] INFO: SeqGenerator: Whole fasta seqlen: 813184
+[2019-06-20 18:05:20.352846] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrV.fa
+[2019-06-20 18:05:20.352920] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:20.352956] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:05:20.357034] INFO: SeqGenerator: Whole fasta seqlen: 576874
+[2019-06-20 18:05:21.395903] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVI.fa
+[2019-06-20 18:05:21.395973] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:21.396007] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:05:21.398122] INFO: SeqGenerator: Whole fasta seqlen: 270161
+[2019-06-20 18:05:21.886226] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVIII.fa
+[2019-06-20 18:05:21.886292] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:21.886327] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:05:21.890318] INFO: SeqGenerator: Whole fasta seqlen: 562643
+[2019-06-20 18:05:22.904103] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrM.fa
+[2019-06-20 18:05:22.904172] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:22.904207] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:05:22.904900] INFO: SeqGenerator: Whole fasta seqlen: 85779
+[2019-06-20 18:05:23.058852] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVII.fa
+[2019-06-20 18:05:23.058918] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:23.058953] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:05:23.066902] INFO: SeqGenerator: Whole fasta seqlen: 1090940
+[2019-06-20 18:05:25.034812] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIII.fa
+[2019-06-20 18:05:25.034884] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:25.034928] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:05:25.037373] INFO: SeqGenerator: Whole fasta seqlen: 316620
+[2019-06-20 18:05:25.607784] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXII.fa
+[2019-06-20 18:05:25.607853] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:25.607888] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:05:25.615846] INFO: SeqGenerator: Whole fasta seqlen: 1078177
+[2019-06-20 18:05:27.561972] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXI.fa
+[2019-06-20 18:05:27.562046] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:27.562089] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:05:27.567007] INFO: SeqGenerator: Whole fasta seqlen: 666816
+[2019-06-20 18:05:28.771028] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIII.fa
+[2019-06-20 18:05:28.771099] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:28.771134] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:05:28.778009] INFO: SeqGenerator: Whole fasta seqlen: 924431
+[2019-06-20 18:05:30.446921] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIV.fa
+[2019-06-20 18:05:30.446993] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:30.447028] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:05:30.452825] INFO: SeqGenerator: Whole fasta seqlen: 784333
+[2019-06-20 18:05:31.868518] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXVI.fa
+[2019-06-20 18:05:31.868606] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:31.868643] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:05:31.875510] INFO: SeqGenerator: Whole fasta seqlen: 948066
+[2019-06-20 18:05:33.585996] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIV.fa
+[2019-06-20 18:05:33.586066] INFO: SeqGenerator: Memory usage: 0.085784 MB
+[2019-06-20 18:05:33.586119] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:05:33.598060] INFO: SeqGenerator: Whole fasta seqlen: 1531933
+[2019-06-20 18:05:36.365126] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIX.fa
+[2019-06-20 18:05:36.365203] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:05:36.365245] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:05:36.368638] INFO: SeqGenerator: Whole fasta seqlen: 439888
+[2019-06-20 18:05:37.162467] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrX.fa
+[2019-06-20 18:05:37.162539] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:05:37.162576] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:05:37.168426] INFO: SeqGenerator: Whole fasta seqlen: 745751
+[2019-06-20 18:05:38.513961] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrI.fa
+[2019-06-20 18:05:38.514032] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:05:38.514067] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:05:38.515781] INFO: SeqGenerator: Whole fasta seqlen: 230218
+[2019-06-20 18:05:38.931822] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXV.fa
+[2019-06-20 18:05:38.931890] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:05:38.931925] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:05:38.939932] INFO: SeqGenerator: Whole fasta seqlen: 1091291
+[2019-06-20 18:05:40.908699] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrII.fa
+[2019-06-20 18:05:40.908771] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:05:40.908806] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:05:40.915133] INFO: SeqGenerator: Whole fasta seqlen: 813184
+[2019-06-20 18:05:42.382687] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrV.fa
+[2019-06-20 18:05:42.382760] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:05:42.382796] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:05:42.387107] INFO: SeqGenerator: Whole fasta seqlen: 576874
+[2019-06-20 18:05:43.426808] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVI.fa
+[2019-06-20 18:05:43.426875] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:05:43.426910] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:05:43.428880] INFO: SeqGenerator: Whole fasta seqlen: 270161
+[2019-06-20 18:05:43.916552] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVIII.fa
+[2019-06-20 18:05:43.916620] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:05:43.916655] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:05:43.920948] INFO: SeqGenerator: Whole fasta seqlen: 562643
+[2019-06-20 18:05:44.937319] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrM.fa
+[2019-06-20 18:05:44.937388] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:05:44.937422] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:05:44.938156] INFO: SeqGenerator: Whole fasta seqlen: 85779
+[2019-06-20 18:05:45.091887] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVII.fa
+[2019-06-20 18:05:45.091953] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:05:45.091988] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:05:45.100031] INFO: SeqGenerator: Whole fasta seqlen: 1090940
+[2019-06-20 18:05:47.069423] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIII.fa
+[2019-06-20 18:05:47.069495] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:05:47.069531] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:05:47.071908] INFO: SeqGenerator: Whole fasta seqlen: 316620
+[2019-06-20 18:05:47.643486] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXII.fa
+[2019-06-20 18:05:47.643554] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:05:47.643589] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:05:47.651323] INFO: SeqGenerator: Whole fasta seqlen: 1078177
+[2019-06-20 18:05:49.600248] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXI.fa
+[2019-06-20 18:05:49.600319] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:05:49.600361] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:05:49.605278] INFO: SeqGenerator: Whole fasta seqlen: 666816
+[2019-06-20 18:05:50.812405] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIII.fa
+[2019-06-20 18:05:50.812491] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:05:50.812529] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:05:50.819023] INFO: SeqGenerator: Whole fasta seqlen: 924431
+[2019-06-20 18:05:52.490172] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIV.fa
+[2019-06-20 18:05:52.490246] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:05:52.490290] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:05:52.496087] INFO: SeqGenerator: Whole fasta seqlen: 784333
+[2019-06-20 18:05:53.051530] INFO: gensim.models.word2vec: PROGRESS: at sentence #20000, processed 74697041 words, keeping 87360 word types
+[2019-06-20 18:05:53.912355] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXVI.fa
+[2019-06-20 18:05:53.912427] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:05:53.912463] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:05:53.918983] INFO: SeqGenerator: Whole fasta seqlen: 948066
+[2019-06-20 18:05:55.630131] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIV.fa
+[2019-06-20 18:05:55.630205] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:05:55.630248] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:05:55.641963] INFO: SeqGenerator: Whole fasta seqlen: 1531933
+[2019-06-20 18:05:58.405999] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIX.fa
+[2019-06-20 18:05:58.406076] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:05:58.406111] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:05:58.409309] INFO: SeqGenerator: Whole fasta seqlen: 439888
+[2019-06-20 18:05:59.203931] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrX.fa
+[2019-06-20 18:05:59.204001] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:05:59.204043] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:05:59.209204] INFO: SeqGenerator: Whole fasta seqlen: 745751
+[2019-06-20 18:06:00.555354] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrI.fa
+[2019-06-20 18:06:00.555426] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:00.555461] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:06:00.557302] INFO: SeqGenerator: Whole fasta seqlen: 230218
+[2019-06-20 18:06:00.974089] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXV.fa
+[2019-06-20 18:06:00.974156] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:00.974191] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:06:00.981515] INFO: SeqGenerator: Whole fasta seqlen: 1091291
+[2019-06-20 18:06:02.951942] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrII.fa
+[2019-06-20 18:06:02.952014] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:02.952058] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:06:02.957874] INFO: SeqGenerator: Whole fasta seqlen: 813184
+[2019-06-20 18:06:04.428691] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrV.fa
+[2019-06-20 18:06:04.428763] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:04.428798] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:06:04.432815] INFO: SeqGenerator: Whole fasta seqlen: 576874
+[2019-06-20 18:06:05.475328] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVI.fa
+[2019-06-20 18:06:05.475397] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:05.475432] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:06:05.477389] INFO: SeqGenerator: Whole fasta seqlen: 270161
+[2019-06-20 18:06:05.966037] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVIII.fa
+[2019-06-20 18:06:05.966105] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:05.966140] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:06:05.970134] INFO: SeqGenerator: Whole fasta seqlen: 562643
+[2019-06-20 18:06:06.986794] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrM.fa
+[2019-06-20 18:06:06.986863] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:06.986898] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:06:06.987578] INFO: SeqGenerator: Whole fasta seqlen: 85779
+[2019-06-20 18:06:07.141360] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVII.fa
+[2019-06-20 18:06:07.141425] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:07.141460] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:06:07.148887] INFO: SeqGenerator: Whole fasta seqlen: 1090940
+[2019-06-20 18:06:09.120294] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIII.fa
+[2019-06-20 18:06:09.120368] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:09.120412] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:06:09.122902] INFO: SeqGenerator: Whole fasta seqlen: 316620
+[2019-06-20 18:06:09.695581] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXII.fa
+[2019-06-20 18:06:09.695649] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:09.695684] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:06:09.703745] INFO: SeqGenerator: Whole fasta seqlen: 1078177
+[2019-06-20 18:06:11.648966] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXI.fa
+[2019-06-20 18:06:11.649039] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:11.649082] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:06:11.653857] INFO: SeqGenerator: Whole fasta seqlen: 666816
+[2019-06-20 18:06:12.859846] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIII.fa
+[2019-06-20 18:06:12.859918] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:12.859961] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:06:12.866944] INFO: SeqGenerator: Whole fasta seqlen: 924431
+[2019-06-20 18:06:14.533798] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIV.fa
+[2019-06-20 18:06:14.533871] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:14.533906] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:06:14.539676] INFO: SeqGenerator: Whole fasta seqlen: 784333
+[2019-06-20 18:06:15.957871] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXVI.fa
+[2019-06-20 18:06:15.957943] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:15.957978] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:06:15.964744] INFO: SeqGenerator: Whole fasta seqlen: 948066
+[2019-06-20 18:06:17.678440] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIV.fa
+[2019-06-20 18:06:17.678514] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:17.678557] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:06:17.689305] INFO: SeqGenerator: Whole fasta seqlen: 1531933
+[2019-06-20 18:06:20.456952] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIX.fa
+[2019-06-20 18:06:20.457029] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:20.457072] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:06:20.460437] INFO: SeqGenerator: Whole fasta seqlen: 439888
+[2019-06-20 18:06:21.256598] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrX.fa
+[2019-06-20 18:06:21.256671] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:21.256714] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:06:21.261795] INFO: SeqGenerator: Whole fasta seqlen: 745751
+[2019-06-20 18:06:22.610949] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrI.fa
+[2019-06-20 18:06:22.611021] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:22.611064] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:06:22.612906] INFO: SeqGenerator: Whole fasta seqlen: 230218
+[2019-06-20 18:06:23.029351] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXV.fa
+[2019-06-20 18:06:23.029418] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:23.029453] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:06:23.037577] INFO: SeqGenerator: Whole fasta seqlen: 1091291
+[2019-06-20 18:06:25.010662] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrII.fa
+[2019-06-20 18:06:25.010737] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:25.010773] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:06:25.016424] INFO: SeqGenerator: Whole fasta seqlen: 813184
+[2019-06-20 18:06:26.487267] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrV.fa
+[2019-06-20 18:06:26.487341] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:26.487386] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:06:26.491461] INFO: SeqGenerator: Whole fasta seqlen: 576874
+[2019-06-20 18:06:27.536127] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVI.fa
+[2019-06-20 18:06:27.536196] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:27.536230] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:06:27.538295] INFO: SeqGenerator: Whole fasta seqlen: 270161
+[2019-06-20 18:06:28.026938] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVIII.fa
+[2019-06-20 18:06:28.027006] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:28.027041] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:06:28.031059] INFO: SeqGenerator: Whole fasta seqlen: 562643
+[2019-06-20 18:06:29.047470] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrM.fa
+[2019-06-20 18:06:29.047540] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:29.047575] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:06:29.048311] INFO: SeqGenerator: Whole fasta seqlen: 85779
+[2019-06-20 18:06:29.202086] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVII.fa
+[2019-06-20 18:06:29.202154] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:29.202190] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:06:29.209657] INFO: SeqGenerator: Whole fasta seqlen: 1090940
+[2019-06-20 18:06:31.181550] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIII.fa
+[2019-06-20 18:06:31.181624] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:31.181668] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:06:31.183919] INFO: SeqGenerator: Whole fasta seqlen: 316620
+[2019-06-20 18:06:31.756271] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXII.fa
+[2019-06-20 18:06:31.756340] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:31.756375] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:06:31.764378] INFO: SeqGenerator: Whole fasta seqlen: 1078177
+[2019-06-20 18:06:33.711776] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXI.fa
+[2019-06-20 18:06:33.711850] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:33.711920] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:06:33.717083] INFO: SeqGenerator: Whole fasta seqlen: 666816
+[2019-06-20 18:06:34.924421] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIII.fa
+[2019-06-20 18:06:34.924507] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:34.924561] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:06:34.930751] INFO: SeqGenerator: Whole fasta seqlen: 924431
+[2019-06-20 18:06:36.602372] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIV.fa
+[2019-06-20 18:06:36.602446] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:36.602481] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:06:36.608393] INFO: SeqGenerator: Whole fasta seqlen: 784333
+[2019-06-20 18:06:38.024935] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXVI.fa
+[2019-06-20 18:06:38.025009] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:38.025044] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:06:38.032045] INFO: SeqGenerator: Whole fasta seqlen: 948066
+[2019-06-20 18:06:39.745938] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIV.fa
+[2019-06-20 18:06:39.746012] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:39.746047] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:06:39.757433] INFO: SeqGenerator: Whole fasta seqlen: 1531933
+[2019-06-20 18:06:42.524969] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIX.fa
+[2019-06-20 18:06:42.525059] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:42.525121] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:06:42.528550] INFO: SeqGenerator: Whole fasta seqlen: 439888
+[2019-06-20 18:06:43.323185] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrX.fa
+[2019-06-20 18:06:43.323256] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:43.323320] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:06:43.328400] INFO: SeqGenerator: Whole fasta seqlen: 745751
+[2019-06-20 18:06:44.675922] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrI.fa
+[2019-06-20 18:06:44.675996] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:44.676039] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:06:44.677890] INFO: SeqGenerator: Whole fasta seqlen: 230218
+[2019-06-20 18:06:45.093763] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXV.fa
+[2019-06-20 18:06:45.093831] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:45.093866] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:06:45.102119] INFO: SeqGenerator: Whole fasta seqlen: 1091291
+[2019-06-20 18:06:47.075656] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrII.fa
+[2019-06-20 18:06:47.075728] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:47.075788] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:06:47.081702] INFO: SeqGenerator: Whole fasta seqlen: 813184
+[2019-06-20 18:06:48.553025] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrV.fa
+[2019-06-20 18:06:48.553098] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:48.553134] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:06:48.557614] INFO: SeqGenerator: Whole fasta seqlen: 576874
+[2019-06-20 18:06:49.600110] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVI.fa
+[2019-06-20 18:06:49.600180] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:49.600215] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:06:49.602359] INFO: SeqGenerator: Whole fasta seqlen: 270161
+[2019-06-20 18:06:50.091504] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVIII.fa
+[2019-06-20 18:06:50.091572] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:50.091615] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:06:50.095782] INFO: SeqGenerator: Whole fasta seqlen: 562643
+[2019-06-20 18:06:51.111816] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrM.fa
+[2019-06-20 18:06:51.111886] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:51.111922] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:06:51.112664] INFO: SeqGenerator: Whole fasta seqlen: 85779
+[2019-06-20 18:06:51.266507] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVII.fa
+[2019-06-20 18:06:51.266571] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:51.266606] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:06:51.275138] INFO: SeqGenerator: Whole fasta seqlen: 1090940
+[2019-06-20 18:06:53.251882] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIII.fa
+[2019-06-20 18:06:53.251955] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:53.251990] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:06:53.254302] INFO: SeqGenerator: Whole fasta seqlen: 316620
+[2019-06-20 18:06:53.828360] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXII.fa
+[2019-06-20 18:06:53.828430] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:53.828514] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:06:53.836289] INFO: SeqGenerator: Whole fasta seqlen: 1078177
+[2019-06-20 18:06:55.785837] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXI.fa
+[2019-06-20 18:06:55.785916] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:55.785979] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:06:55.791084] INFO: SeqGenerator: Whole fasta seqlen: 666816
+[2019-06-20 18:06:56.996606] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIII.fa
+[2019-06-20 18:06:56.996678] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:56.996721] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:06:57.003582] INFO: SeqGenerator: Whole fasta seqlen: 924431
+[2019-06-20 18:06:58.670320] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIV.fa
+[2019-06-20 18:06:58.670393] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:06:58.670453] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:06:58.676123] INFO: SeqGenerator: Whole fasta seqlen: 784333
+[2019-06-20 18:07:00.093143] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXVI.fa
+[2019-06-20 18:07:00.093216] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:07:00.093259] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:07:00.099989] INFO: SeqGenerator: Whole fasta seqlen: 948066
+[2019-06-20 18:07:01.039181] INFO: gensim.models.word2vec: PROGRESS: at sentence #30000, processed 112093244 words, keeping 87360 word types
+[2019-06-20 18:07:01.818634] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIV.fa
+[2019-06-20 18:07:01.818706] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:07:01.818749] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:07:01.830172] INFO: SeqGenerator: Whole fasta seqlen: 1531933
+[2019-06-20 18:07:04.601267] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIX.fa
+[2019-06-20 18:07:04.601345] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:07:04.601389] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:07:04.604764] INFO: SeqGenerator: Whole fasta seqlen: 439888
+[2019-06-20 18:07:05.401354] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrX.fa
+[2019-06-20 18:07:05.401426] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:07:05.401486] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:07:05.406976] INFO: SeqGenerator: Whole fasta seqlen: 745751
+[2019-06-20 18:07:06.755776] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrI.fa
+[2019-06-20 18:07:06.755848] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:07:06.755884] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:07:06.757774] INFO: SeqGenerator: Whole fasta seqlen: 230218
+[2019-06-20 18:07:07.173709] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXV.fa
+[2019-06-20 18:07:07.173775] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:07:07.173809] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:07:07.181910] INFO: SeqGenerator: Whole fasta seqlen: 1091291
+[2019-06-20 18:07:09.155599] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrII.fa
+[2019-06-20 18:07:09.155677] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:07:09.155720] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:07:09.161927] INFO: SeqGenerator: Whole fasta seqlen: 813184
+[2019-06-20 18:07:10.631494] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrV.fa
+[2019-06-20 18:07:10.631568] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:07:10.631611] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:07:10.636006] INFO: SeqGenerator: Whole fasta seqlen: 576874
+[2019-06-20 18:07:11.679317] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVI.fa
+[2019-06-20 18:07:11.679390] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:07:11.679425] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:07:11.681498] INFO: SeqGenerator: Whole fasta seqlen: 270161
+[2019-06-20 18:07:12.170062] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVIII.fa
+[2019-06-20 18:07:12.170129] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:07:12.170165] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:07:12.174349] INFO: SeqGenerator: Whole fasta seqlen: 562643
+[2019-06-20 18:07:13.191645] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrM.fa
+[2019-06-20 18:07:13.191717] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:07:13.191753] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:07:13.192491] INFO: SeqGenerator: Whole fasta seqlen: 85779
+[2019-06-20 18:07:13.346318] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVII.fa
+[2019-06-20 18:07:13.346383] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:07:13.346418] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:07:13.354215] INFO: SeqGenerator: Whole fasta seqlen: 1090940
+[2019-06-20 18:07:15.328469] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIII.fa
+[2019-06-20 18:07:15.328558] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:07:15.328602] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:07:15.331063] INFO: SeqGenerator: Whole fasta seqlen: 316620
+[2019-06-20 18:07:15.904272] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXII.fa
+[2019-06-20 18:07:15.904342] INFO: SeqGenerator: Memory usage: 0.086064 MB
+[2019-06-20 18:07:15.904385] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:07:15.912546] INFO: SeqGenerator: Whole fasta seqlen: 1078177
+[2019-06-20 18:07:17.865420] INFO: gensim.models.word2vec: collected 87360 word types from a corpus of 121343830 raw words and 32460 sentences
+[2019-06-20 18:07:18.066121] INFO: gensim.models.word2vec: min_count=5 retains 87360 unique words (drops 0)
+[2019-06-20 18:07:18.066258] INFO: gensim.models.word2vec: min_count leaves 121343830 word corpus (100% of original 121343830)
+[2019-06-20 18:07:18.233989] INFO: gensim.models.word2vec: deleting the raw counts dictionary of 87360 items
+[2019-06-20 18:07:18.235652] INFO: gensim.models.word2vec: sample=0.001 downsamples 26 most-common words
+[2019-06-20 18:07:18.235767] INFO: gensim.models.word2vec: downsampling leaves estimated 118639292 word corpus (97.8% of prior 121343830)
+[2019-06-20 18:07:18.235843] INFO: gensim.models.word2vec: estimated required memory for 87360 words and 100 dimensions: 113568000 bytes
+[2019-06-20 18:07:18.489421] INFO: gensim.models.word2vec: resetting layer weights
+[2019-06-20 18:07:19.157131] INFO: gensim.models.word2vec: training model with 4 workers on 87360 vocabulary and 100 features, using sg=1 hs=0 sample=0.001 negative=5
+[2019-06-20 18:07:19.157271] INFO: gensim.models.word2vec: expecting 32460 sentences, matching count from corpus used for vocabulary survey
+[2019-06-20 18:07:19.159065] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXI.fa
+[2019-06-20 18:07:19.159173] INFO: SeqGenerator: Memory usage: 0.151376 MB
+[2019-06-20 18:07:19.159216] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:07:19.165286] INFO: SeqGenerator: Whole fasta seqlen: 666816
+[2019-06-20 18:07:20.207836] INFO: gensim.models.word2vec: PROGRESS: at 0.14% examples, 162284 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:21.243053] INFO: gensim.models.word2vec: PROGRESS: at 0.32% examples, 178644 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:22.157820] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIII.fa
+[2019-06-20 18:07:22.157943] INFO: SeqGenerator: Memory usage: 0.195768 MB
+[2019-06-20 18:07:22.157982] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:07:22.165871] INFO: SeqGenerator: Whole fasta seqlen: 924431
+[2019-06-20 18:07:22.284822] INFO: gensim.models.word2vec: PROGRESS: at 0.49% examples, 185273 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:23.317736] INFO: gensim.models.word2vec: PROGRESS: at 0.67% examples, 189919 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:24.394057] INFO: gensim.models.word2vec: PROGRESS: at 0.84% examples, 189004 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:25.450500] INFO: gensim.models.word2vec: PROGRESS: at 1.02% examples, 190749 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:26.484005] INFO: gensim.models.word2vec: PROGRESS: at 1.17% examples, 190782 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:26.755880] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIV.fa
+[2019-06-20 18:07:26.756019] INFO: SeqGenerator: Memory usage: 0.197528 MB
+[2019-06-20 18:07:26.756058] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:07:26.762557] INFO: SeqGenerator: Whole fasta seqlen: 784333
+[2019-06-20 18:07:27.503150] INFO: gensim.models.word2vec: PROGRESS: at 1.34% examples, 190449 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:28.515893] INFO: gensim.models.word2vec: PROGRESS: at 1.49% examples, 190339 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:29.590177] INFO: gensim.models.word2vec: PROGRESS: at 1.66% examples, 190760 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:30.656950] INFO: gensim.models.word2vec: PROGRESS: at 1.83% examples, 190940 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:30.749253] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXVI.fa
+[2019-06-20 18:07:30.749713] INFO: SeqGenerator: Memory usage: 0.197972 MB
+[2019-06-20 18:07:30.749767] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:07:30.757498] INFO: SeqGenerator: Whole fasta seqlen: 948066
+[2019-06-20 18:07:31.679378] INFO: gensim.models.word2vec: PROGRESS: at 2.02% examples, 191957 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:07:32.709748] INFO: gensim.models.word2vec: PROGRESS: at 2.19% examples, 191731 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:33.731991] INFO: gensim.models.word2vec: PROGRESS: at 2.36% examples, 192567 words/s, in_qsize 7, out_qsize 1
+[2019-06-20 18:07:34.760265] INFO: gensim.models.word2vec: PROGRESS: at 2.53% examples, 193120 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:35.359913] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIV.fa
+[2019-06-20 18:07:35.360119] INFO: SeqGenerator: Memory usage: 0.198204 MB
+[2019-06-20 18:07:35.360168] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:07:35.372222] INFO: SeqGenerator: Whole fasta seqlen: 1531933
+[2019-06-20 18:07:35.768975] INFO: gensim.models.word2vec: PROGRESS: at 2.70% examples, 193788 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:36.785999] INFO: gensim.models.word2vec: PROGRESS: at 2.88% examples, 194128 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:37.841892] INFO: gensim.models.word2vec: PROGRESS: at 3.06% examples, 194346 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:38.876139] INFO: gensim.models.word2vec: PROGRESS: at 3.22% examples, 194478 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:07:39.894928] INFO: gensim.models.word2vec: PROGRESS: at 3.40% examples, 195419 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:40.916945] INFO: gensim.models.word2vec: PROGRESS: at 3.58% examples, 195681 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:41.920781] INFO: gensim.models.word2vec: PROGRESS: at 3.75% examples, 196088 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:42.755011] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIX.fa
+[2019-06-20 18:07:42.760894] INFO: SeqGenerator: Memory usage: 0.200172 MB
+[2019-06-20 18:07:42.761216] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:07:42.764444] INFO: SeqGenerator: Whole fasta seqlen: 439888
+[2019-06-20 18:07:42.944115] INFO: gensim.models.word2vec: PROGRESS: at 3.92% examples, 196541 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:44.009823] INFO: gensim.models.word2vec: PROGRESS: at 4.10% examples, 196691 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:44.872149] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrX.fa
+[2019-06-20 18:07:44.872309] INFO: SeqGenerator: Memory usage: 0.200172 MB
+[2019-06-20 18:07:44.872353] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:07:44.878569] INFO: SeqGenerator: Whole fasta seqlen: 745751
+[2019-06-20 18:07:45.047552] INFO: gensim.models.word2vec: PROGRESS: at 4.29% examples, 197291 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:46.082346] INFO: gensim.models.word2vec: PROGRESS: at 4.50% examples, 198371 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:47.089158] INFO: gensim.models.word2vec: PROGRESS: at 4.67% examples, 198483 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:07:48.109414] INFO: gensim.models.word2vec: PROGRESS: at 4.83% examples, 198511 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:07:48.306508] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrI.fa
+[2019-06-20 18:07:48.306643] INFO: SeqGenerator: Memory usage: 0.200172 MB
+[2019-06-20 18:07:48.306709] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:07:48.308435] INFO: SeqGenerator: Whole fasta seqlen: 230218
+[2019-06-20 18:07:49.165714] INFO: gensim.models.word2vec: PROGRESS: at 5.04% examples, 199558 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:07:49.281154] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXV.fa
+[2019-06-20 18:07:49.281259] INFO: SeqGenerator: Memory usage: 0.200172 MB
+[2019-06-20 18:07:49.281298] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:07:49.289723] INFO: SeqGenerator: Whole fasta seqlen: 1091291
+[2019-06-20 18:07:50.186059] INFO: gensim.models.word2vec: PROGRESS: at 5.26% examples, 201105 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:51.187972] INFO: gensim.models.word2vec: PROGRESS: at 5.43% examples, 201348 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:52.214975] INFO: gensim.models.word2vec: PROGRESS: at 5.60% examples, 201353 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:53.242301] INFO: gensim.models.word2vec: PROGRESS: at 5.80% examples, 202212 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:54.007313] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrII.fa
+[2019-06-20 18:07:54.007818] INFO: SeqGenerator: Memory usage: 0.200172 MB
+[2019-06-20 18:07:54.007864] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:07:54.014730] INFO: SeqGenerator: Whole fasta seqlen: 813184
+[2019-06-20 18:07:54.301273] INFO: gensim.models.word2vec: PROGRESS: at 6.01% examples, 203312 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:55.340031] INFO: gensim.models.word2vec: PROGRESS: at 6.20% examples, 203715 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:07:56.344831] INFO: gensim.models.word2vec: PROGRESS: at 6.36% examples, 203436 words/s, in_qsize 7, out_qsize 1
+[2019-06-20 18:07:57.413124] INFO: gensim.models.word2vec: PROGRESS: at 6.55% examples, 203183 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:07:57.875049] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrV.fa
+[2019-06-20 18:07:57.875292] INFO: SeqGenerator: Memory usage: 0.200172 MB
+[2019-06-20 18:07:57.875403] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:07:57.880078] INFO: SeqGenerator: Whole fasta seqlen: 576874
+[2019-06-20 18:07:58.430053] INFO: gensim.models.word2vec: PROGRESS: at 6.77% examples, 204321 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:07:59.444589] INFO: gensim.models.word2vec: PROGRESS: at 6.95% examples, 204566 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:08:00.384226] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVI.fa
+[2019-06-20 18:08:00.384425] INFO: SeqGenerator: Memory usage: 0.200172 MB
+[2019-06-20 18:08:00.384499] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:08:00.386834] INFO: SeqGenerator: Whole fasta seqlen: 270161
+[2019-06-20 18:08:00.469705] INFO: gensim.models.word2vec: PROGRESS: at 7.14% examples, 204760 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:01.481621] INFO: gensim.models.word2vec: PROGRESS: at 7.30% examples, 204669 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:01.678413] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVIII.fa
+[2019-06-20 18:08:01.685445] INFO: SeqGenerator: Memory usage: 0.200172 MB
+[2019-06-20 18:08:01.685889] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:08:01.690503] INFO: SeqGenerator: Whole fasta seqlen: 562643
+[2019-06-20 18:08:02.505598] INFO: gensim.models.word2vec: PROGRESS: at 7.50% examples, 205317 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:03.521954] INFO: gensim.models.word2vec: PROGRESS: at 7.68% examples, 205287 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:08:04.249376] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrM.fa
+[2019-06-20 18:08:04.249830] INFO: SeqGenerator: Memory usage: 0.200172 MB
+[2019-06-20 18:08:04.249871] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:08:04.250642] INFO: SeqGenerator: Whole fasta seqlen: 85779
+[2019-06-20 18:08:04.531867] INFO: gensim.models.word2vec: PROGRESS: at 7.85% examples, 205157 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:04.663259] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVII.fa
+[2019-06-20 18:08:04.663391] INFO: SeqGenerator: Memory usage: 0.200172 MB
+[2019-06-20 18:08:04.663435] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:08:04.679699] INFO: SeqGenerator: Whole fasta seqlen: 1090940
+[2019-06-20 18:08:05.542828] INFO: gensim.models.word2vec: PROGRESS: at 8.04% examples, 205426 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:08:06.568199] INFO: gensim.models.word2vec: PROGRESS: at 8.21% examples, 205222 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:07.621702] INFO: gensim.models.word2vec: PROGRESS: at 8.39% examples, 205221 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:08.667702] INFO: gensim.models.word2vec: PROGRESS: at 8.56% examples, 205106 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:09.680293] INFO: gensim.models.word2vec: PROGRESS: at 8.76% examples, 205654 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:09.718998] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIII.fa
+[2019-06-20 18:08:09.719402] INFO: SeqGenerator: Memory usage: 0.200172 MB
+[2019-06-20 18:08:09.719453] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:08:09.723234] INFO: SeqGenerator: Whole fasta seqlen: 316620
+[2019-06-20 18:08:10.689331] INFO: gensim.models.word2vec: PROGRESS: at 8.94% examples, 205849 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:11.197775] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXII.fa
+[2019-06-20 18:08:11.197898] INFO: SeqGenerator: Memory usage: 0.200172 MB
+[2019-06-20 18:08:11.197939] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-06-20 18:08:11.206011] INFO: SeqGenerator: Whole fasta seqlen: 1078177
+[2019-06-20 18:08:11.707168] INFO: gensim.models.word2vec: PROGRESS: at 9.10% examples, 205623 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:12.745967] INFO: gensim.models.word2vec: PROGRESS: at 9.27% examples, 205377 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:13.797436] INFO: gensim.models.word2vec: PROGRESS: at 9.44% examples, 205138 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:14.831708] INFO: gensim.models.word2vec: PROGRESS: at 9.61% examples, 204912 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:15.850090] INFO: gensim.models.word2vec: PROGRESS: at 9.78% examples, 204811 words/s, in_qsize 7, out_qsize 1
+[2019-06-20 18:08:16.634219] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXI.fa
+[2019-06-20 18:08:16.634353] INFO: SeqGenerator: Memory usage: 0.200172 MB
+[2019-06-20 18:08:16.634392] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:08:16.640537] INFO: SeqGenerator: Whole fasta seqlen: 666816
+[2019-06-20 18:08:16.865126] INFO: gensim.models.word2vec: PROGRESS: at 9.96% examples, 204692 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:08:17.880086] INFO: gensim.models.word2vec: PROGRESS: at 10.14% examples, 204711 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:18.894526] INFO: gensim.models.word2vec: PROGRESS: at 10.31% examples, 204783 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:08:19.724186] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIII.fa
+[2019-06-20 18:08:19.724397] INFO: SeqGenerator: Memory usage: 0.200172 MB
+[2019-06-20 18:08:19.724438] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:08:19.732180] INFO: SeqGenerator: Whole fasta seqlen: 924431
+[2019-06-20 18:08:19.910695] INFO: gensim.models.word2vec: PROGRESS: at 10.51% examples, 205140 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:20.988937] INFO: gensim.models.word2vec: PROGRESS: at 10.68% examples, 205007 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:22.040935] INFO: gensim.models.word2vec: PROGRESS: at 10.86% examples, 204788 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:23.041393] INFO: gensim.models.word2vec: PROGRESS: at 11.03% examples, 204744 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:24.047679] INFO: gensim.models.word2vec: PROGRESS: at 11.19% examples, 204581 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:08:24.258034] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIV.fa
+[2019-06-20 18:08:24.258169] INFO: SeqGenerator: Memory usage: 0.200172 MB
+[2019-06-20 18:08:24.258209] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:08:24.264384] INFO: SeqGenerator: Whole fasta seqlen: 784333
+[2019-06-20 18:08:25.072914] INFO: gensim.models.word2vec: PROGRESS: at 11.36% examples, 204547 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:26.111932] INFO: gensim.models.word2vec: PROGRESS: at 11.53% examples, 204335 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:27.123638] INFO: gensim.models.word2vec: PROGRESS: at 11.71% examples, 204414 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:28.039255] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXVI.fa
+[2019-06-20 18:08:28.046215] INFO: SeqGenerator: Memory usage: 0.200172 MB
+[2019-06-20 18:08:28.046611] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:08:28.055061] INFO: SeqGenerator: Whole fasta seqlen: 948066
+[2019-06-20 18:08:28.148874] INFO: gensim.models.word2vec: PROGRESS: at 11.89% examples, 204383 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:29.161007] INFO: gensim.models.word2vec: PROGRESS: at 12.06% examples, 204284 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:08:30.223921] INFO: gensim.models.word2vec: PROGRESS: at 12.23% examples, 204091 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:31.241629] INFO: gensim.models.word2vec: PROGRESS: at 12.40% examples, 204083 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:32.306724] INFO: gensim.models.word2vec: PROGRESS: at 12.59% examples, 203942 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:32.710997] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIV.fa
+[2019-06-20 18:08:32.711465] INFO: SeqGenerator: Memory usage: 0.200172 MB
+[2019-06-20 18:08:32.711511] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:08:32.724187] INFO: SeqGenerator: Whole fasta seqlen: 1531933
+[2019-06-20 18:08:33.325533] INFO: gensim.models.word2vec: PROGRESS: at 12.76% examples, 203807 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:34.369012] INFO: gensim.models.word2vec: PROGRESS: at 12.93% examples, 203640 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:35.381366] INFO: gensim.models.word2vec: PROGRESS: at 13.10% examples, 203598 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:36.392130] INFO: gensim.models.word2vec: PROGRESS: at 13.28% examples, 203543 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:08:37.393802] INFO: gensim.models.word2vec: PROGRESS: at 13.46% examples, 203507 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:38.400104] INFO: gensim.models.word2vec: PROGRESS: at 13.62% examples, 203328 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:39.426932] INFO: gensim.models.word2vec: PROGRESS: at 13.79% examples, 203326 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:08:40.350982] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIX.fa
+[2019-06-20 18:08:40.351142] INFO: SeqGenerator: Memory usage: 0.201068 MB
+[2019-06-20 18:08:40.351427] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:08:40.355052] INFO: SeqGenerator: Whole fasta seqlen: 439888
+[2019-06-20 18:08:40.470597] INFO: gensim.models.word2vec: PROGRESS: at 13.96% examples, 203116 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:41.485739] INFO: gensim.models.word2vec: PROGRESS: at 14.13% examples, 203105 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:08:42.526152] INFO: gensim.models.word2vec: PROGRESS: at 14.31% examples, 202968 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:42.600076] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrX.fa
+[2019-06-20 18:08:42.600493] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:08:42.600565] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:08:42.606604] INFO: SeqGenerator: Whole fasta seqlen: 745751
+[2019-06-20 18:08:43.547146] INFO: gensim.models.word2vec: PROGRESS: at 14.48% examples, 202936 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:44.560890] INFO: gensim.models.word2vec: PROGRESS: at 14.65% examples, 202874 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:45.608791] INFO: gensim.models.word2vec: PROGRESS: at 14.82% examples, 202724 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:46.251003] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrI.fa
+[2019-06-20 18:08:46.251135] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:08:46.251176] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:08:46.253115] INFO: SeqGenerator: Whole fasta seqlen: 230218
+[2019-06-20 18:08:46.625561] INFO: gensim.models.word2vec: PROGRESS: at 14.99% examples, 202703 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:47.366453] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXV.fa
+[2019-06-20 18:08:47.366580] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:08:47.366620] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:08:47.375211] INFO: SeqGenerator: Whole fasta seqlen: 1091291
+[2019-06-20 18:08:47.660433] INFO: gensim.models.word2vec: PROGRESS: at 15.17% examples, 202648 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:48.689627] INFO: gensim.models.word2vec: PROGRESS: at 15.34% examples, 202569 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:49.708641] INFO: gensim.models.word2vec: PROGRESS: at 15.50% examples, 202456 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:50.712788] INFO: gensim.models.word2vec: PROGRESS: at 15.66% examples, 202340 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:51.793117] INFO: gensim.models.word2vec: PROGRESS: at 15.84% examples, 202294 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:08:52.801685] INFO: gensim.models.word2vec: PROGRESS: at 16.00% examples, 202181 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:52.845108] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrII.fa
+[2019-06-20 18:08:52.845228] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:08:52.845276] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:08:52.851759] INFO: SeqGenerator: Whole fasta seqlen: 813184
+[2019-06-20 18:08:53.817999] INFO: gensim.models.word2vec: PROGRESS: at 16.18% examples, 202214 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:54.826478] INFO: gensim.models.word2vec: PROGRESS: at 16.34% examples, 202069 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:55.891768] INFO: gensim.models.word2vec: PROGRESS: at 16.51% examples, 201916 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:56.937746] INFO: gensim.models.word2vec: PROGRESS: at 16.68% examples, 201686 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:08:56.994902] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrV.fa
+[2019-06-20 18:08:56.995324] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:08:56.995365] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:08:57.000001] INFO: SeqGenerator: Whole fasta seqlen: 576874
+[2019-06-20 18:08:57.966334] INFO: gensim.models.word2vec: PROGRESS: at 16.86% examples, 201756 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:58.986614] INFO: gensim.models.word2vec: PROGRESS: at 17.03% examples, 201677 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:08:59.859495] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVI.fa
+[2019-06-20 18:08:59.859614] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:08:59.859654] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:08:59.861941] INFO: SeqGenerator: Whole fasta seqlen: 270161
+[2019-06-20 18:09:00.018393] INFO: gensim.models.word2vec: PROGRESS: at 17.20% examples, 201598 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:01.040627] INFO: gensim.models.word2vec: PROGRESS: at 17.38% examples, 201601 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:01.204389] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVIII.fa
+[2019-06-20 18:09:01.204538] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:09:01.204580] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:09:01.209074] INFO: SeqGenerator: Whole fasta seqlen: 562643
+[2019-06-20 18:09:02.107395] INFO: gensim.models.word2vec: PROGRESS: at 17.54% examples, 201498 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:03.137370] INFO: gensim.models.word2vec: PROGRESS: at 17.71% examples, 201422 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:04.002053] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrM.fa
+[2019-06-20 18:09:04.002173] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:09:04.002212] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:09:04.002989] INFO: SeqGenerator: Whole fasta seqlen: 85779
+[2019-06-20 18:09:04.141154] INFO: gensim.models.word2vec: PROGRESS: at 17.89% examples, 201384 words/s, in_qsize 8, out_qsize 1
+[2019-06-20 18:09:04.454001] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVII.fa
+[2019-06-20 18:09:04.454473] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:09:04.454532] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:09:04.463052] INFO: SeqGenerator: Whole fasta seqlen: 1090940
+[2019-06-20 18:09:05.160591] INFO: gensim.models.word2vec: PROGRESS: at 18.05% examples, 201299 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:06.168896] INFO: gensim.models.word2vec: PROGRESS: at 18.23% examples, 201276 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:07.200221] INFO: gensim.models.word2vec: PROGRESS: at 18.39% examples, 201168 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:08.254237] INFO: gensim.models.word2vec: PROGRESS: at 18.56% examples, 201028 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:09.328587] INFO: gensim.models.word2vec: PROGRESS: at 18.74% examples, 200988 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:09.957961] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIII.fa
+[2019-06-20 18:09:09.958406] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:09:09.958457] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:09:09.961224] INFO: SeqGenerator: Whole fasta seqlen: 316620
+[2019-06-20 18:09:10.334965] INFO: gensim.models.word2vec: PROGRESS: at 18.90% examples, 200974 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:11.358061] INFO: gensim.models.word2vec: PROGRESS: at 19.09% examples, 201009 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:11.486551] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXII.fa
+[2019-06-20 18:09:11.486668] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:09:11.486706] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-06-20 18:09:11.495238] INFO: SeqGenerator: Whole fasta seqlen: 1078177
+[2019-06-20 18:09:12.385514] INFO: gensim.models.word2vec: PROGRESS: at 19.25% examples, 200870 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:09:13.438538] INFO: gensim.models.word2vec: PROGRESS: at 19.43% examples, 200853 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:14.457775] INFO: gensim.models.word2vec: PROGRESS: at 19.60% examples, 200845 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:15.460246] INFO: gensim.models.word2vec: PROGRESS: at 19.76% examples, 200761 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:16.475217] INFO: gensim.models.word2vec: PROGRESS: at 19.92% examples, 200712 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:09:16.942416] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXI.fa
+[2019-06-20 18:09:16.942544] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:09:16.942592] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:09:16.947968] INFO: SeqGenerator: Whole fasta seqlen: 666816
+[2019-06-20 18:09:17.476906] INFO: gensim.models.word2vec: PROGRESS: at 20.09% examples, 200666 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:18.479457] INFO: gensim.models.word2vec: PROGRESS: at 20.25% examples, 200570 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:19.494987] INFO: gensim.models.word2vec: PROGRESS: at 20.41% examples, 200482 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:20.266047] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIII.fa
+[2019-06-20 18:09:20.266170] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:09:20.266211] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:09:20.273362] INFO: SeqGenerator: Whole fasta seqlen: 924431
+[2019-06-20 18:09:20.516011] INFO: gensim.models.word2vec: PROGRESS: at 20.58% examples, 200480 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:21.596658] INFO: gensim.models.word2vec: PROGRESS: at 20.74% examples, 200357 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:22.634848] INFO: gensim.models.word2vec: PROGRESS: at 20.92% examples, 200371 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:23.637906] INFO: gensim.models.word2vec: PROGRESS: at 21.08% examples, 200256 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:24.650189] INFO: gensim.models.word2vec: PROGRESS: at 21.24% examples, 200269 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:24.906355] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIV.fa
+[2019-06-20 18:09:24.912986] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:09:24.913087] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:09:24.919371] INFO: SeqGenerator: Whole fasta seqlen: 784333
+[2019-06-20 18:09:25.673662] INFO: gensim.models.word2vec: PROGRESS: at 21.41% examples, 200189 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:26.717831] INFO: gensim.models.word2vec: PROGRESS: at 21.57% examples, 200116 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:27.770878] INFO: gensim.models.word2vec: PROGRESS: at 21.75% examples, 200117 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:28.800309] INFO: gensim.models.word2vec: PROGRESS: at 21.91% examples, 200023 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:28.853396] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXVI.fa
+[2019-06-20 18:09:28.853507] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:09:28.853546] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:09:28.862693] INFO: SeqGenerator: Whole fasta seqlen: 948066
+[2019-06-20 18:09:29.826169] INFO: gensim.models.word2vec: PROGRESS: at 22.08% examples, 199972 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:30.890340] INFO: gensim.models.word2vec: PROGRESS: at 22.25% examples, 199874 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:31.933541] INFO: gensim.models.word2vec: PROGRESS: at 22.42% examples, 199854 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:32.977261] INFO: gensim.models.word2vec: PROGRESS: at 22.60% examples, 199870 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:33.597951] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIV.fa
+[2019-06-20 18:09:33.598070] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:09:33.598113] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:09:33.610251] INFO: SeqGenerator: Whole fasta seqlen: 1531933
+[2019-06-20 18:09:34.033914] INFO: gensim.models.word2vec: PROGRESS: at 22.77% examples, 199811 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:09:35.044808] INFO: gensim.models.word2vec: PROGRESS: at 22.93% examples, 199756 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:36.070007] INFO: gensim.models.word2vec: PROGRESS: at 23.10% examples, 199758 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:37.131658] INFO: gensim.models.word2vec: PROGRESS: at 23.28% examples, 199771 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:38.134513] INFO: gensim.models.word2vec: PROGRESS: at 23.44% examples, 199704 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:09:39.163096] INFO: gensim.models.word2vec: PROGRESS: at 23.60% examples, 199672 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:40.222170] INFO: gensim.models.word2vec: PROGRESS: at 23.76% examples, 199563 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:41.240991] INFO: gensim.models.word2vec: PROGRESS: at 23.93% examples, 199550 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:41.284141] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIX.fa
+[2019-06-20 18:09:41.284255] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:09:41.284298] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:09:41.287525] INFO: SeqGenerator: Whole fasta seqlen: 439888
+[2019-06-20 18:09:42.294198] INFO: gensim.models.word2vec: PROGRESS: at 24.12% examples, 199573 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:43.300020] INFO: gensim.models.word2vec: PROGRESS: at 24.28% examples, 199547 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:43.450246] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrX.fa
+[2019-06-20 18:09:43.450754] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:09:43.450795] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:09:43.456150] INFO: SeqGenerator: Whole fasta seqlen: 745751
+[2019-06-20 18:09:44.320327] INFO: gensim.models.word2vec: PROGRESS: at 24.45% examples, 199525 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:09:45.331554] INFO: gensim.models.word2vec: PROGRESS: at 24.62% examples, 199483 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:09:46.354836] INFO: gensim.models.word2vec: PROGRESS: at 24.78% examples, 199447 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:09:47.204791] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrI.fa
+[2019-06-20 18:09:47.204913] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:09:47.204957] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:09:47.206694] INFO: SeqGenerator: Whole fasta seqlen: 230218
+[2019-06-20 18:09:47.392451] INFO: gensim.models.word2vec: PROGRESS: at 24.94% examples, 199365 words/s, in_qsize 8, out_qsize 1
+[2019-06-20 18:09:48.350559] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXV.fa
+[2019-06-20 18:09:48.350718] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:09:48.350762] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:09:48.359834] INFO: SeqGenerator: Whole fasta seqlen: 1091291
+[2019-06-20 18:09:48.428868] INFO: gensim.models.word2vec: PROGRESS: at 25.11% examples, 199385 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:49.442073] INFO: gensim.models.word2vec: PROGRESS: at 25.28% examples, 199329 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:09:50.450486] INFO: gensim.models.word2vec: PROGRESS: at 25.44% examples, 199332 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:09:51.471035] INFO: gensim.models.word2vec: PROGRESS: at 25.61% examples, 199300 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:52.514684] INFO: gensim.models.word2vec: PROGRESS: at 25.78% examples, 199299 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:53.521902] INFO: gensim.models.word2vec: PROGRESS: at 25.95% examples, 199260 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:09:53.847588] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrII.fa
+[2019-06-20 18:09:53.848035] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:09:53.848078] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:09:53.859797] INFO: SeqGenerator: Whole fasta seqlen: 813184
+[2019-06-20 18:09:54.531373] INFO: gensim.models.word2vec: PROGRESS: at 26.12% examples, 199256 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:55.541298] INFO: gensim.models.word2vec: PROGRESS: at 26.28% examples, 199243 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:56.625322] INFO: gensim.models.word2vec: PROGRESS: at 26.46% examples, 199190 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:57.630453] INFO: gensim.models.word2vec: PROGRESS: at 26.64% examples, 199204 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:57.811822] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrV.fa
+[2019-06-20 18:09:57.811942] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:09:57.811981] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:09:57.816590] INFO: SeqGenerator: Whole fasta seqlen: 576874
+[2019-06-20 18:09:58.647591] INFO: gensim.models.word2vec: PROGRESS: at 26.81% examples, 199201 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:09:59.654960] INFO: gensim.models.word2vec: PROGRESS: at 26.98% examples, 199218 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:00.649121] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVI.fa
+[2019-06-20 18:10:00.649243] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:10:00.649291] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:10:00.651353] INFO: SeqGenerator: Whole fasta seqlen: 270161
+[2019-06-20 18:10:00.707692] INFO: gensim.models.word2vec: PROGRESS: at 27.15% examples, 199153 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:01.713773] INFO: gensim.models.word2vec: PROGRESS: at 27.32% examples, 199191 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:02.029685] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVIII.fa
+[2019-06-20 18:10:02.029818] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:10:02.029858] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:10:02.034346] INFO: SeqGenerator: Whole fasta seqlen: 562643
+[2019-06-20 18:10:02.775234] INFO: gensim.models.word2vec: PROGRESS: at 27.49% examples, 199118 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:03.797696] INFO: gensim.models.word2vec: PROGRESS: at 27.66% examples, 199136 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:04.851319] INFO: gensim.models.word2vec: PROGRESS: at 27.83% examples, 199072 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:04.860677] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrM.fa
+[2019-06-20 18:10:04.860762] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:10:04.860800] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:10:04.861579] INFO: SeqGenerator: Whole fasta seqlen: 85779
+[2019-06-20 18:10:05.223958] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVII.fa
+[2019-06-20 18:10:05.224402] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:10:05.224567] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:10:05.234204] INFO: SeqGenerator: Whole fasta seqlen: 1090940
+[2019-06-20 18:10:05.861949] INFO: gensim.models.word2vec: PROGRESS: at 28.02% examples, 199118 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:06.884807] INFO: gensim.models.word2vec: PROGRESS: at 28.19% examples, 199071 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:07.902251] INFO: gensim.models.word2vec: PROGRESS: at 28.36% examples, 199066 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:08.923378] INFO: gensim.models.word2vec: PROGRESS: at 28.53% examples, 199068 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:09.937745] INFO: gensim.models.word2vec: PROGRESS: at 28.70% examples, 198994 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:10.659748] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIII.fa
+[2019-06-20 18:10:10.659866] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:10:10.659904] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:10:10.662588] INFO: SeqGenerator: Whole fasta seqlen: 316620
+[2019-06-20 18:10:10.949406] INFO: gensim.models.word2vec: PROGRESS: at 28.87% examples, 198975 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:11.998529] INFO: gensim.models.word2vec: PROGRESS: at 29.06% examples, 199011 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:12.208805] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXII.fa
+[2019-06-20 18:10:12.216039] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:10:12.216898] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-06-20 18:10:12.225863] INFO: SeqGenerator: Whole fasta seqlen: 1078177
+[2019-06-20 18:10:13.006880] INFO: gensim.models.word2vec: PROGRESS: at 29.25% examples, 199095 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:14.046668] INFO: gensim.models.word2vec: PROGRESS: at 29.41% examples, 199026 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:10:15.059975] INFO: gensim.models.word2vec: PROGRESS: at 29.57% examples, 199015 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:16.073675] INFO: gensim.models.word2vec: PROGRESS: at 29.74% examples, 198975 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:17.074508] INFO: gensim.models.word2vec: PROGRESS: at 29.91% examples, 198992 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:17.545262] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXI.fa
+[2019-06-20 18:10:17.545664] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:10:17.545708] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:10:17.551048] INFO: SeqGenerator: Whole fasta seqlen: 666816
+[2019-06-20 18:10:18.107392] INFO: gensim.models.word2vec: PROGRESS: at 30.08% examples, 198993 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:19.153455] INFO: gensim.models.word2vec: PROGRESS: at 30.25% examples, 198966 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:20.153625] INFO: gensim.models.word2vec: PROGRESS: at 30.42% examples, 198985 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:20.796345] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIII.fa
+[2019-06-20 18:10:20.796500] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:10:20.796540] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:10:20.803775] INFO: SeqGenerator: Whole fasta seqlen: 924431
+[2019-06-20 18:10:21.203100] INFO: gensim.models.word2vec: PROGRESS: at 30.59% examples, 198957 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:22.272544] INFO: gensim.models.word2vec: PROGRESS: at 30.77% examples, 198943 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:23.290377] INFO: gensim.models.word2vec: PROGRESS: at 30.94% examples, 198923 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:10:24.382098] INFO: gensim.models.word2vec: PROGRESS: at 31.12% examples, 198883 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:25.391599] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIV.fa
+[2019-06-20 18:10:25.392031] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:10:25.392087] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:10:25.398230] INFO: SeqGenerator: Whole fasta seqlen: 784333
+[2019-06-20 18:10:25.420202] INFO: gensim.models.word2vec: PROGRESS: at 31.30% examples, 198905 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:26.421876] INFO: gensim.models.word2vec: PROGRESS: at 31.46% examples, 198873 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:27.476809] INFO: gensim.models.word2vec: PROGRESS: at 31.64% examples, 198847 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:28.476985] INFO: gensim.models.word2vec: PROGRESS: at 31.79% examples, 198798 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:29.352638] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXVI.fa
+[2019-06-20 18:10:29.359170] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:10:29.359246] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:10:29.367088] INFO: SeqGenerator: Whole fasta seqlen: 948066
+[2019-06-20 18:10:29.506495] INFO: gensim.models.word2vec: PROGRESS: at 31.97% examples, 198793 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:30.571909] INFO: gensim.models.word2vec: PROGRESS: at 32.16% examples, 198823 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:31.599641] INFO: gensim.models.word2vec: PROGRESS: at 32.33% examples, 198819 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:32.615398] INFO: gensim.models.word2vec: PROGRESS: at 32.50% examples, 198799 words/s, in_qsize 5, out_qsize 2
+[2019-06-20 18:10:33.617641] INFO: gensim.models.word2vec: PROGRESS: at 32.67% examples, 198806 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:10:33.992151] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIV.fa
+[2019-06-20 18:10:33.992299] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:10:33.992338] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:10:34.004811] INFO: SeqGenerator: Whole fasta seqlen: 1531933
+[2019-06-20 18:10:34.692815] INFO: gensim.models.word2vec: PROGRESS: at 32.84% examples, 198754 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:35.700848] INFO: gensim.models.word2vec: PROGRESS: at 33.00% examples, 198751 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:10:36.722206] INFO: gensim.models.word2vec: PROGRESS: at 33.17% examples, 198768 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:37.826213] INFO: gensim.models.word2vec: PROGRESS: at 33.34% examples, 198694 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:38.836734] INFO: gensim.models.word2vec: PROGRESS: at 33.51% examples, 198698 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:39.892445] INFO: gensim.models.word2vec: PROGRESS: at 33.68% examples, 198660 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:40.893346] INFO: gensim.models.word2vec: PROGRESS: at 33.84% examples, 198647 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:41.713249] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIX.fa
+[2019-06-20 18:10:41.718902] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:10:41.719283] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:10:41.722817] INFO: SeqGenerator: Whole fasta seqlen: 439888
+[2019-06-20 18:10:41.934337] INFO: gensim.models.word2vec: PROGRESS: at 34.01% examples, 198658 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:42.945624] INFO: gensim.models.word2vec: PROGRESS: at 34.19% examples, 198657 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:43.873352] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrX.fa
+[2019-06-20 18:10:43.881024] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:10:43.881462] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:10:43.887388] INFO: SeqGenerator: Whole fasta seqlen: 745751
+[2019-06-20 18:10:43.978697] INFO: gensim.models.word2vec: PROGRESS: at 34.36% examples, 198644 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:44.995452] INFO: gensim.models.word2vec: PROGRESS: at 34.53% examples, 198620 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:46.000162] INFO: gensim.models.word2vec: PROGRESS: at 34.70% examples, 198657 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:10:47.043117] INFO: gensim.models.word2vec: PROGRESS: at 34.87% examples, 198602 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:47.537907] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrI.fa
+[2019-06-20 18:10:47.538036] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:10:47.538075] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:10:47.539951] INFO: SeqGenerator: Whole fasta seqlen: 230218
+[2019-06-20 18:10:48.049875] INFO: gensim.models.word2vec: PROGRESS: at 35.04% examples, 198626 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:48.642152] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXV.fa
+[2019-06-20 18:10:48.642269] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:10:48.642309] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:10:48.650951] INFO: SeqGenerator: Whole fasta seqlen: 1091291
+[2019-06-20 18:10:49.121047] INFO: gensim.models.word2vec: PROGRESS: at 35.22% examples, 198599 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:10:50.128297] INFO: gensim.models.word2vec: PROGRESS: at 35.38% examples, 198606 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:51.145247] INFO: gensim.models.word2vec: PROGRESS: at 35.54% examples, 198602 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:52.165068] INFO: gensim.models.word2vec: PROGRESS: at 35.71% examples, 198604 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:53.182956] INFO: gensim.models.word2vec: PROGRESS: at 35.88% examples, 198595 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:54.052888] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrII.fa
+[2019-06-20 18:10:54.053075] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:10:54.053116] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:10:54.059549] INFO: SeqGenerator: Whole fasta seqlen: 813184
+[2019-06-20 18:10:54.216211] INFO: gensim.models.word2vec: PROGRESS: at 36.05% examples, 198573 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:55.228772] INFO: gensim.models.word2vec: PROGRESS: at 36.23% examples, 198574 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:10:56.241611] INFO: gensim.models.word2vec: PROGRESS: at 36.39% examples, 198545 words/s, in_qsize 7, out_qsize 1
+[2019-06-20 18:10:57.251821] INFO: gensim.models.word2vec: PROGRESS: at 36.56% examples, 198521 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:10:58.116939] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrV.fa
+[2019-06-20 18:10:58.117059] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:10:58.117097] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:10:58.121635] INFO: SeqGenerator: Whole fasta seqlen: 576874
+[2019-06-20 18:10:58.255308] INFO: gensim.models.word2vec: PROGRESS: at 36.73% examples, 198502 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:10:59.331018] INFO: gensim.models.word2vec: PROGRESS: at 36.91% examples, 198502 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:00.411125] INFO: gensim.models.word2vec: PROGRESS: at 37.09% examples, 198475 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:00.961334] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVI.fa
+[2019-06-20 18:11:00.961840] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:11:00.961881] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:11:00.972354] INFO: SeqGenerator: Whole fasta seqlen: 270161
+[2019-06-20 18:11:01.432784] INFO: gensim.models.word2vec: PROGRESS: at 37.26% examples, 198470 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:02.393715] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVIII.fa
+[2019-06-20 18:11:02.400457] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:11:02.400869] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:11:02.405605] INFO: SeqGenerator: Whole fasta seqlen: 562643
+[2019-06-20 18:11:02.492705] INFO: gensim.models.word2vec: PROGRESS: at 37.42% examples, 198470 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:03.526986] INFO: gensim.models.word2vec: PROGRESS: at 37.60% examples, 198478 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:04.534665] INFO: gensim.models.word2vec: PROGRESS: at 37.77% examples, 198446 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:11:05.212274] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrM.fa
+[2019-06-20 18:11:05.212397] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:11:05.212437] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:11:05.213226] INFO: SeqGenerator: Whole fasta seqlen: 85779
+[2019-06-20 18:11:05.558321] INFO: gensim.models.word2vec: PROGRESS: at 37.95% examples, 198453 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:05.563709] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVII.fa
+[2019-06-20 18:11:05.563792] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:11:05.563834] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:11:05.572686] INFO: SeqGenerator: Whole fasta seqlen: 1090940
+[2019-06-20 18:11:06.573384] INFO: gensim.models.word2vec: PROGRESS: at 38.11% examples, 198426 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:07.576716] INFO: gensim.models.word2vec: PROGRESS: at 38.28% examples, 198439 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:08.621715] INFO: gensim.models.word2vec: PROGRESS: at 38.45% examples, 198394 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:09.629291] INFO: gensim.models.word2vec: PROGRESS: at 38.62% examples, 198398 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:10.674102] INFO: gensim.models.word2vec: PROGRESS: at 38.79% examples, 198366 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:11.025754] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIII.fa
+[2019-06-20 18:11:11.025887] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:11:11.025939] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:11:11.028595] INFO: SeqGenerator: Whole fasta seqlen: 316620
+[2019-06-20 18:11:11.704835] INFO: gensim.models.word2vec: PROGRESS: at 38.96% examples, 198360 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:12.583632] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXII.fa
+[2019-06-20 18:11:12.583750] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:11:12.583787] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-06-20 18:11:12.592319] INFO: SeqGenerator: Whole fasta seqlen: 1078177
+[2019-06-20 18:11:12.706311] INFO: gensim.models.word2vec: PROGRESS: at 39.13% examples, 198358 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:13.725553] INFO: gensim.models.word2vec: PROGRESS: at 39.29% examples, 198341 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:11:14.738735] INFO: gensim.models.word2vec: PROGRESS: at 39.45% examples, 198333 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:15.743665] INFO: gensim.models.word2vec: PROGRESS: at 39.62% examples, 198356 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:16.744291] INFO: gensim.models.word2vec: PROGRESS: at 39.78% examples, 198329 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:17.780157] INFO: gensim.models.word2vec: PROGRESS: at 39.96% examples, 198306 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:17.923689] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXI.fa
+[2019-06-20 18:11:17.923815] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:11:17.923855] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:11:17.929369] INFO: SeqGenerator: Whole fasta seqlen: 666816
+[2019-06-20 18:11:18.783176] INFO: gensim.models.word2vec: PROGRESS: at 40.12% examples, 198300 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:19.795011] INFO: gensim.models.word2vec: PROGRESS: at 40.29% examples, 198300 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:20.803399] INFO: gensim.models.word2vec: PROGRESS: at 40.47% examples, 198320 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:21.186582] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIII.fa
+[2019-06-20 18:11:21.187026] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:11:21.187074] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:11:21.194361] INFO: SeqGenerator: Whole fasta seqlen: 924431
+[2019-06-20 18:11:21.854235] INFO: gensim.models.word2vec: PROGRESS: at 40.64% examples, 198309 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:22.935890] INFO: gensim.models.word2vec: PROGRESS: at 40.82% examples, 198305 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:23.965499] INFO: gensim.models.word2vec: PROGRESS: at 40.99% examples, 198304 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:24.970668] INFO: gensim.models.word2vec: PROGRESS: at 41.17% examples, 198311 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:25.844208] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIV.fa
+[2019-06-20 18:11:25.844344] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:11:25.844386] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:11:25.850844] INFO: SeqGenerator: Whole fasta seqlen: 784333
+[2019-06-20 18:11:25.991178] INFO: gensim.models.word2vec: PROGRESS: at 41.32% examples, 198269 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:27.061925] INFO: gensim.models.word2vec: PROGRESS: at 41.50% examples, 198277 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:28.072517] INFO: gensim.models.word2vec: PROGRESS: at 41.67% examples, 198269 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:29.075894] INFO: gensim.models.word2vec: PROGRESS: at 41.84% examples, 198284 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:29.718109] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXVI.fa
+[2019-06-20 18:11:29.718624] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:11:29.723744] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:11:29.731725] INFO: SeqGenerator: Whole fasta seqlen: 948066
+[2019-06-20 18:11:30.086868] INFO: gensim.models.word2vec: PROGRESS: at 42.00% examples, 198245 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:31.094691] INFO: gensim.models.word2vec: PROGRESS: at 42.17% examples, 198238 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:11:32.105515] INFO: gensim.models.word2vec: PROGRESS: at 42.33% examples, 198222 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:33.116544] INFO: gensim.models.word2vec: PROGRESS: at 42.50% examples, 198225 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:34.124536] INFO: gensim.models.word2vec: PROGRESS: at 42.67% examples, 198214 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:34.454487] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIV.fa
+[2019-06-20 18:11:34.454614] INFO: SeqGenerator: Memory usage: 0.201236 MB
+[2019-06-20 18:11:34.454655] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:11:34.467268] INFO: SeqGenerator: Whole fasta seqlen: 1531933
+[2019-06-20 18:11:35.142201] INFO: gensim.models.word2vec: PROGRESS: at 42.83% examples, 198206 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:11:36.167727] INFO: gensim.models.word2vec: PROGRESS: at 43.00% examples, 198199 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:37.184718] INFO: gensim.models.word2vec: PROGRESS: at 43.18% examples, 198209 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:38.206825] INFO: gensim.models.word2vec: PROGRESS: at 43.33% examples, 198187 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:39.214494] INFO: gensim.models.word2vec: PROGRESS: at 43.51% examples, 198204 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:40.222911] INFO: gensim.models.word2vec: PROGRESS: at 43.68% examples, 198179 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:41.254882] INFO: gensim.models.word2vec: PROGRESS: at 43.85% examples, 198183 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:42.043777] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIX.fa
+[2019-06-20 18:11:42.043919] INFO: SeqGenerator: Memory usage: 0.201324 MB
+[2019-06-20 18:11:42.043958] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:11:42.047593] INFO: SeqGenerator: Whole fasta seqlen: 439888
+[2019-06-20 18:11:42.294018] INFO: gensim.models.word2vec: PROGRESS: at 44.03% examples, 198171 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:43.348112] INFO: gensim.models.word2vec: PROGRESS: at 44.20% examples, 198151 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:11:44.277059] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrX.fa
+[2019-06-20 18:11:44.277180] INFO: SeqGenerator: Memory usage: 0.201324 MB
+[2019-06-20 18:11:44.277218] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:11:44.283331] INFO: SeqGenerator: Whole fasta seqlen: 745751
+[2019-06-20 18:11:44.447200] INFO: gensim.models.word2vec: PROGRESS: at 44.38% examples, 198122 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:45.455107] INFO: gensim.models.word2vec: PROGRESS: at 44.56% examples, 198141 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:46.463848] INFO: gensim.models.word2vec: PROGRESS: at 44.73% examples, 198134 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:47.478867] INFO: gensim.models.word2vec: PROGRESS: at 44.89% examples, 198116 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:11:48.000582] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrI.fa
+[2019-06-20 18:11:48.000707] INFO: SeqGenerator: Memory usage: 0.201324 MB
+[2019-06-20 18:11:48.000746] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:11:48.002640] INFO: SeqGenerator: Whole fasta seqlen: 230218
+[2019-06-20 18:11:48.521500] INFO: gensim.models.word2vec: PROGRESS: at 45.06% examples, 198082 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:49.140045] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXV.fa
+[2019-06-20 18:11:49.140171] INFO: SeqGenerator: Memory usage: 0.201324 MB
+[2019-06-20 18:11:49.140212] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:11:49.149161] INFO: SeqGenerator: Whole fasta seqlen: 1091291
+[2019-06-20 18:11:49.535082] INFO: gensim.models.word2vec: PROGRESS: at 45.24% examples, 198088 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:50.541514] INFO: gensim.models.word2vec: PROGRESS: at 45.39% examples, 198087 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:51.552874] INFO: gensim.models.word2vec: PROGRESS: at 45.57% examples, 198067 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:52.568392] INFO: gensim.models.word2vec: PROGRESS: at 45.73% examples, 198040 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:53.589128] INFO: gensim.models.word2vec: PROGRESS: at 45.90% examples, 198061 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:11:54.537310] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrII.fa
+[2019-06-20 18:11:54.537439] INFO: SeqGenerator: Memory usage: 0.201324 MB
+[2019-06-20 18:11:54.537480] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:11:54.543918] INFO: SeqGenerator: Whole fasta seqlen: 813184
+[2019-06-20 18:11:54.615063] INFO: gensim.models.word2vec: PROGRESS: at 46.06% examples, 198033 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:55.641067] INFO: gensim.models.word2vec: PROGRESS: at 46.22% examples, 198027 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:56.673449] INFO: gensim.models.word2vec: PROGRESS: at 46.40% examples, 198047 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:11:57.707019] INFO: gensim.models.word2vec: PROGRESS: at 46.57% examples, 198016 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:58.585168] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrV.fa
+[2019-06-20 18:11:58.585295] INFO: SeqGenerator: Memory usage: 0.201324 MB
+[2019-06-20 18:11:58.585346] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:11:58.589931] INFO: SeqGenerator: Whole fasta seqlen: 576874
+[2019-06-20 18:11:58.713523] INFO: gensim.models.word2vec: PROGRESS: at 46.72% examples, 198027 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:11:59.853410] INFO: gensim.models.word2vec: PROGRESS: at 46.90% examples, 197980 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:00.860008] INFO: gensim.models.word2vec: PROGRESS: at 47.08% examples, 198010 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:12:01.485695] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVI.fa
+[2019-06-20 18:12:01.485819] INFO: SeqGenerator: Memory usage: 0.201324 MB
+[2019-06-20 18:12:01.485858] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:12:01.488083] INFO: SeqGenerator: Whole fasta seqlen: 270161
+[2019-06-20 18:12:01.900456] INFO: gensim.models.word2vec: PROGRESS: at 47.24% examples, 198007 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:02.839038] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVIII.fa
+[2019-06-20 18:12:02.839164] INFO: SeqGenerator: Memory usage: 0.201324 MB
+[2019-06-20 18:12:02.839206] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:12:02.843785] INFO: SeqGenerator: Whole fasta seqlen: 562643
+[2019-06-20 18:12:02.904322] INFO: gensim.models.word2vec: PROGRESS: at 47.41% examples, 197983 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:03.917960] INFO: gensim.models.word2vec: PROGRESS: at 47.58% examples, 197964 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:04.949386] INFO: gensim.models.word2vec: PROGRESS: at 47.74% examples, 197951 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:05.640623] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrM.fa
+[2019-06-20 18:12:05.640745] INFO: SeqGenerator: Memory usage: 0.201324 MB
+[2019-06-20 18:12:05.640783] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:12:05.641535] INFO: SeqGenerator: Whole fasta seqlen: 85779
+[2019-06-20 18:12:05.978523] INFO: gensim.models.word2vec: PROGRESS: at 47.91% examples, 197957 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:06.071078] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVII.fa
+[2019-06-20 18:12:06.071549] INFO: SeqGenerator: Memory usage: 0.201324 MB
+[2019-06-20 18:12:06.071588] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:12:06.080266] INFO: SeqGenerator: Whole fasta seqlen: 1090940
+[2019-06-20 18:12:06.982935] INFO: gensim.models.word2vec: PROGRESS: at 48.08% examples, 197950 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:07.995100] INFO: gensim.models.word2vec: PROGRESS: at 48.24% examples, 197928 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:09.002408] INFO: gensim.models.word2vec: PROGRESS: at 48.41% examples, 197916 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:12:10.013323] INFO: gensim.models.word2vec: PROGRESS: at 48.58% examples, 197920 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:12:11.023629] INFO: gensim.models.word2vec: PROGRESS: at 48.75% examples, 197894 words/s, in_qsize 7, out_qsize 1
+[2019-06-20 18:12:11.516795] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIII.fa
+[2019-06-20 18:12:11.516916] INFO: SeqGenerator: Memory usage: 0.201324 MB
+[2019-06-20 18:12:11.516955] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:12:11.519517] INFO: SeqGenerator: Whole fasta seqlen: 316620
+[2019-06-20 18:12:12.048815] INFO: gensim.models.word2vec: PROGRESS: at 48.92% examples, 197887 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:12:13.061277] INFO: gensim.models.word2vec: PROGRESS: at 49.08% examples, 197876 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:13.128736] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXII.fa
+[2019-06-20 18:12:13.129239] INFO: SeqGenerator: Memory usage: 0.201324 MB
+[2019-06-20 18:12:13.129284] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-06-20 18:12:13.143653] INFO: SeqGenerator: Whole fasta seqlen: 1078177
+[2019-06-20 18:12:14.071902] INFO: gensim.models.word2vec: PROGRESS: at 49.25% examples, 197872 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:15.134784] INFO: gensim.models.word2vec: PROGRESS: at 49.42% examples, 197856 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:16.196943] INFO: gensim.models.word2vec: PROGRESS: at 49.60% examples, 197861 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:17.197465] INFO: gensim.models.word2vec: PROGRESS: at 49.77% examples, 197869 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:18.201587] INFO: gensim.models.word2vec: PROGRESS: at 49.94% examples, 197877 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:18.449848] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXI.fa
+[2019-06-20 18:12:18.449985] INFO: SeqGenerator: Memory usage: 0.201324 MB
+[2019-06-20 18:12:18.450023] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:12:18.455470] INFO: SeqGenerator: Whole fasta seqlen: 666816
+[2019-06-20 18:12:19.237038] INFO: gensim.models.word2vec: PROGRESS: at 50.12% examples, 197883 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:20.275681] INFO: gensim.models.word2vec: PROGRESS: at 50.28% examples, 197860 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:21.297535] INFO: gensim.models.word2vec: PROGRESS: at 50.45% examples, 197861 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:21.749931] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIII.fa
+[2019-06-20 18:12:21.750372] INFO: SeqGenerator: Memory usage: 0.201324 MB
+[2019-06-20 18:12:21.750418] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:12:21.757747] INFO: SeqGenerator: Whole fasta seqlen: 924431
+[2019-06-20 18:12:22.303091] INFO: gensim.models.word2vec: PROGRESS: at 50.63% examples, 197863 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:23.321498] INFO: gensim.models.word2vec: PROGRESS: at 50.79% examples, 197830 words/s, in_qsize 8, out_qsize 1
+[2019-06-20 18:12:24.326179] INFO: gensim.models.word2vec: PROGRESS: at 50.97% examples, 197862 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:25.353664] INFO: gensim.models.word2vec: PROGRESS: at 51.14% examples, 197857 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:26.331315] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIV.fa
+[2019-06-20 18:12:26.331441] INFO: SeqGenerator: Memory usage: 0.201324 MB
+[2019-06-20 18:12:26.331480] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:12:26.337673] INFO: SeqGenerator: Whole fasta seqlen: 784333
+[2019-06-20 18:12:26.393134] INFO: gensim.models.word2vec: PROGRESS: at 51.31% examples, 197845 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:27.444425] INFO: gensim.models.word2vec: PROGRESS: at 51.48% examples, 197836 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:28.466196] INFO: gensim.models.word2vec: PROGRESS: at 51.64% examples, 197811 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:29.493124] INFO: gensim.models.word2vec: PROGRESS: at 51.81% examples, 197825 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:30.230703] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXVI.fa
+[2019-06-20 18:12:30.230830] INFO: SeqGenerator: Memory usage: 0.201324 MB
+[2019-06-20 18:12:30.230872] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:12:30.238348] INFO: SeqGenerator: Whole fasta seqlen: 948066
+[2019-06-20 18:12:30.502583] INFO: gensim.models.word2vec: PROGRESS: at 51.97% examples, 197823 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:12:31.525916] INFO: gensim.models.word2vec: PROGRESS: at 52.14% examples, 197805 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:12:32.554034] INFO: gensim.models.word2vec: PROGRESS: at 52.31% examples, 197804 words/s, in_qsize 7, out_qsize 1
+[2019-06-20 18:12:33.591526] INFO: gensim.models.word2vec: PROGRESS: at 52.49% examples, 197818 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:34.593841] INFO: gensim.models.word2vec: PROGRESS: at 52.66% examples, 197817 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:34.923675] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIV.fa
+[2019-06-20 18:12:34.928720] INFO: SeqGenerator: Memory usage: 0.201324 MB
+[2019-06-20 18:12:34.928803] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:12:34.941790] INFO: SeqGenerator: Whole fasta seqlen: 1531933
+[2019-06-20 18:12:35.596862] INFO: gensim.models.word2vec: PROGRESS: at 52.83% examples, 197790 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:36.616707] INFO: gensim.models.word2vec: PROGRESS: at 52.99% examples, 197800 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:12:37.635147] INFO: gensim.models.word2vec: PROGRESS: at 53.17% examples, 197806 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:38.646022] INFO: gensim.models.word2vec: PROGRESS: at 53.33% examples, 197794 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:39.679014] INFO: gensim.models.word2vec: PROGRESS: at 53.49% examples, 197771 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:40.743544] INFO: gensim.models.word2vec: PROGRESS: at 53.67% examples, 197777 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:41.762517] INFO: gensim.models.word2vec: PROGRESS: at 53.85% examples, 197798 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:42.512122] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIX.fa
+[2019-06-20 18:12:42.512606] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:12:42.512656] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:12:42.516285] INFO: SeqGenerator: Whole fasta seqlen: 439888
+[2019-06-20 18:12:42.826313] INFO: gensim.models.word2vec: PROGRESS: at 54.03% examples, 197776 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:43.866592] INFO: gensim.models.word2vec: PROGRESS: at 54.20% examples, 197787 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:44.701931] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrX.fa
+[2019-06-20 18:12:44.702054] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:12:44.702094] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:12:44.708156] INFO: SeqGenerator: Whole fasta seqlen: 745751
+[2019-06-20 18:12:44.885319] INFO: gensim.models.word2vec: PROGRESS: at 54.36% examples, 197785 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:12:45.914066] INFO: gensim.models.word2vec: PROGRESS: at 54.53% examples, 197774 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:46.922829] INFO: gensim.models.word2vec: PROGRESS: at 54.70% examples, 197779 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:47.924959] INFO: gensim.models.word2vec: PROGRESS: at 54.86% examples, 197774 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:48.381986] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrI.fa
+[2019-06-20 18:12:48.382110] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:12:48.382149] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:12:48.384047] INFO: SeqGenerator: Whole fasta seqlen: 230218
+[2019-06-20 18:12:48.933736] INFO: gensim.models.word2vec: PROGRESS: at 55.04% examples, 197775 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:49.506949] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXV.fa
+[2019-06-20 18:12:49.507360] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:12:49.507403] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:12:49.523993] INFO: SeqGenerator: Whole fasta seqlen: 1091291
+[2019-06-20 18:12:49.965220] INFO: gensim.models.word2vec: PROGRESS: at 55.21% examples, 197756 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:50.966112] INFO: gensim.models.word2vec: PROGRESS: at 55.37% examples, 197751 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:52.006782] INFO: gensim.models.word2vec: PROGRESS: at 55.54% examples, 197740 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:53.051201] INFO: gensim.models.word2vec: PROGRESS: at 55.70% examples, 197725 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:54.074544] INFO: gensim.models.word2vec: PROGRESS: at 55.87% examples, 197723 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:55.021915] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrII.fa
+[2019-06-20 18:12:55.022267] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:12:55.022321] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:12:55.028707] INFO: SeqGenerator: Whole fasta seqlen: 813184
+[2019-06-20 18:12:55.104074] INFO: gensim.models.word2vec: PROGRESS: at 56.04% examples, 197727 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:12:56.112554] INFO: gensim.models.word2vec: PROGRESS: at 56.21% examples, 197742 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:57.142990] INFO: gensim.models.word2vec: PROGRESS: at 56.38% examples, 197727 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:12:58.180144] INFO: gensim.models.word2vec: PROGRESS: at 56.55% examples, 197728 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:12:59.051539] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrV.fa
+[2019-06-20 18:12:59.052295] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:12:59.057214] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:12:59.062096] INFO: SeqGenerator: Whole fasta seqlen: 576874
+[2019-06-20 18:12:59.202140] INFO: gensim.models.word2vec: PROGRESS: at 56.70% examples, 197704 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:13:00.214519] INFO: gensim.models.word2vec: PROGRESS: at 56.87% examples, 197719 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:01.275077] INFO: gensim.models.word2vec: PROGRESS: at 57.04% examples, 197706 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:13:01.920142] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVI.fa
+[2019-06-20 18:13:01.920335] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:13:01.920380] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:13:01.922602] INFO: SeqGenerator: Whole fasta seqlen: 270161
+[2019-06-20 18:13:02.296648] INFO: gensim.models.word2vec: PROGRESS: at 57.21% examples, 197709 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:03.221884] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVIII.fa
+[2019-06-20 18:13:03.222013] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:13:03.222051] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:13:03.226589] INFO: SeqGenerator: Whole fasta seqlen: 562643
+[2019-06-20 18:13:03.321999] INFO: gensim.models.word2vec: PROGRESS: at 57.39% examples, 197714 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:13:04.324494] INFO: gensim.models.word2vec: PROGRESS: at 57.58% examples, 197712 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:13:05.344797] INFO: gensim.models.word2vec: PROGRESS: at 57.75% examples, 197706 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:06.050129] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrM.fa
+[2019-06-20 18:13:06.050564] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:13:06.050610] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:13:06.051373] INFO: SeqGenerator: Whole fasta seqlen: 85779
+[2019-06-20 18:13:06.363433] INFO: gensim.models.word2vec: PROGRESS: at 57.91% examples, 197702 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:06.403282] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVII.fa
+[2019-06-20 18:13:06.403617] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:13:06.403671] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:13:06.412291] INFO: SeqGenerator: Whole fasta seqlen: 1090940
+[2019-06-20 18:13:07.374258] INFO: gensim.models.word2vec: PROGRESS: at 58.07% examples, 197698 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:08.429798] INFO: gensim.models.word2vec: PROGRESS: at 58.25% examples, 197682 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:13:09.449275] INFO: gensim.models.word2vec: PROGRESS: at 58.42% examples, 197692 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:10.464970] INFO: gensim.models.word2vec: PROGRESS: at 58.58% examples, 197689 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:11.484646] INFO: gensim.models.word2vec: PROGRESS: at 58.75% examples, 197693 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:11.842775] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIII.fa
+[2019-06-20 18:13:11.842897] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:13:11.842940] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:13:11.845508] INFO: SeqGenerator: Whole fasta seqlen: 316620
+[2019-06-20 18:13:12.572943] INFO: gensim.models.word2vec: PROGRESS: at 58.92% examples, 197663 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:13.409720] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXII.fa
+[2019-06-20 18:13:13.410221] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:13:13.410265] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-06-20 18:13:13.418798] INFO: SeqGenerator: Whole fasta seqlen: 1078177
+[2019-06-20 18:13:13.588769] INFO: gensim.models.word2vec: PROGRESS: at 59.10% examples, 197690 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:14.650164] INFO: gensim.models.word2vec: PROGRESS: at 59.27% examples, 197689 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:15.673783] INFO: gensim.models.word2vec: PROGRESS: at 59.44% examples, 197658 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:16.734394] INFO: gensim.models.word2vec: PROGRESS: at 59.62% examples, 197678 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:17.759462] INFO: gensim.models.word2vec: PROGRESS: at 59.79% examples, 197661 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:13:18.786640] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXI.fa
+[2019-06-20 18:13:18.786886] INFO: gensim.models.word2vec: PROGRESS: at 59.96% examples, 197662 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:13:18.786991] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:13:18.787155] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:13:18.792449] INFO: SeqGenerator: Whole fasta seqlen: 666816
+[2019-06-20 18:13:19.815903] INFO: gensim.models.word2vec: PROGRESS: at 60.13% examples, 197672 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:20.878011] INFO: gensim.models.word2vec: PROGRESS: at 60.31% examples, 197672 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:21.883764] INFO: gensim.models.word2vec: PROGRESS: at 60.48% examples, 197665 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:22.052155] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIII.fa
+[2019-06-20 18:13:22.052275] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:13:22.052315] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:13:22.059618] INFO: SeqGenerator: Whole fasta seqlen: 924431
+[2019-06-20 18:13:22.898237] INFO: gensim.models.word2vec: PROGRESS: at 60.64% examples, 197647 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:23.909672] INFO: gensim.models.word2vec: PROGRESS: at 60.81% examples, 197648 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:24.977710] INFO: gensim.models.word2vec: PROGRESS: at 61.00% examples, 197642 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:25.997276] INFO: gensim.models.word2vec: PROGRESS: at 61.17% examples, 197643 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:13:26.672606] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIV.fa
+[2019-06-20 18:13:26.672728] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:13:26.672766] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:13:26.678950] INFO: SeqGenerator: Whole fasta seqlen: 784333
+[2019-06-20 18:13:27.017666] INFO: gensim.models.word2vec: PROGRESS: at 61.34% examples, 197651 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:13:28.020735] INFO: gensim.models.word2vec: PROGRESS: at 61.50% examples, 197620 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:29.021172] INFO: gensim.models.word2vec: PROGRESS: at 61.67% examples, 197631 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:30.026072] INFO: gensim.models.word2vec: PROGRESS: at 61.84% examples, 197633 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:13:30.612619] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXVI.fa
+[2019-06-20 18:13:30.612742] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:13:30.612785] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:13:30.620206] INFO: SeqGenerator: Whole fasta seqlen: 948066
+[2019-06-20 18:13:31.028547] INFO: gensim.models.word2vec: PROGRESS: at 61.99% examples, 197590 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:32.084634] INFO: gensim.models.word2vec: PROGRESS: at 62.17% examples, 197591 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:33.120027] INFO: gensim.models.word2vec: PROGRESS: at 62.34% examples, 197591 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:13:34.166553] INFO: gensim.models.word2vec: PROGRESS: at 62.51% examples, 197582 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:35.166634] INFO: gensim.models.word2vec: PROGRESS: at 62.68% examples, 197581 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:35.364746] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIV.fa
+[2019-06-20 18:13:35.364867] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:13:35.364906] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:13:35.377642] INFO: SeqGenerator: Whole fasta seqlen: 1531933
+[2019-06-20 18:13:36.174308] INFO: gensim.models.word2vec: PROGRESS: at 62.85% examples, 197563 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:37.199839] INFO: gensim.models.word2vec: PROGRESS: at 63.02% examples, 197561 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:38.200423] INFO: gensim.models.word2vec: PROGRESS: at 63.18% examples, 197555 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:13:39.274792] INFO: gensim.models.word2vec: PROGRESS: at 63.34% examples, 197534 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:13:40.288420] INFO: gensim.models.word2vec: PROGRESS: at 63.51% examples, 197538 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:13:41.321524] INFO: gensim.models.word2vec: PROGRESS: at 63.68% examples, 197539 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:42.342883] INFO: gensim.models.word2vec: PROGRESS: at 63.84% examples, 197516 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:43.057165] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIX.fa
+[2019-06-20 18:13:43.057289] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:13:43.057328] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:13:43.060898] INFO: SeqGenerator: Whole fasta seqlen: 439888
+[2019-06-20 18:13:43.362673] INFO: gensim.models.word2vec: PROGRESS: at 64.01% examples, 197511 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:13:44.371874] INFO: gensim.models.word2vec: PROGRESS: at 64.17% examples, 197508 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:13:45.234314] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrX.fa
+[2019-06-20 18:13:45.234713] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:13:45.234763] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:13:45.240638] INFO: SeqGenerator: Whole fasta seqlen: 745751
+[2019-06-20 18:13:45.375415] INFO: gensim.models.word2vec: PROGRESS: at 64.34% examples, 197510 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:46.386308] INFO: gensim.models.word2vec: PROGRESS: at 64.50% examples, 197517 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:47.398975] INFO: gensim.models.word2vec: PROGRESS: at 64.66% examples, 197506 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:48.449385] INFO: gensim.models.word2vec: PROGRESS: at 64.84% examples, 197481 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:13:48.934253] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrI.fa
+[2019-06-20 18:13:48.934673] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:13:48.934713] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:13:48.936584] INFO: SeqGenerator: Whole fasta seqlen: 230218
+[2019-06-20 18:13:49.449993] INFO: gensim.models.word2vec: PROGRESS: at 65.00% examples, 197493 words/s, in_qsize 7, out_qsize 1
+[2019-06-20 18:13:50.087281] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXV.fa
+[2019-06-20 18:13:50.087400] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:13:50.087440] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:13:50.095993] INFO: SeqGenerator: Whole fasta seqlen: 1091291
+[2019-06-20 18:13:50.457809] INFO: gensim.models.word2vec: PROGRESS: at 65.17% examples, 197482 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:13:51.473720] INFO: gensim.models.word2vec: PROGRESS: at 65.34% examples, 197475 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:52.489244] INFO: gensim.models.word2vec: PROGRESS: at 65.50% examples, 197469 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:53.513291] INFO: gensim.models.word2vec: PROGRESS: at 65.66% examples, 197456 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:54.599985] INFO: gensim.models.word2vec: PROGRESS: at 65.84% examples, 197449 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:55.528623] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrII.fa
+[2019-06-20 18:13:55.528743] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:13:55.528783] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:13:55.535204] INFO: SeqGenerator: Whole fasta seqlen: 813184
+[2019-06-20 18:13:55.673381] INFO: gensim.models.word2vec: PROGRESS: at 66.02% examples, 197449 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:56.704803] INFO: gensim.models.word2vec: PROGRESS: at 66.19% examples, 197427 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:57.744984] INFO: gensim.models.word2vec: PROGRESS: at 66.35% examples, 197404 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:13:58.754204] INFO: gensim.models.word2vec: PROGRESS: at 66.52% examples, 197432 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:13:59.609340] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrV.fa
+[2019-06-20 18:13:59.609492] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:13:59.609532] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:13:59.614101] INFO: SeqGenerator: Whole fasta seqlen: 576874
+[2019-06-20 18:13:59.760015] INFO: gensim.models.word2vec: PROGRESS: at 66.68% examples, 197411 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:14:00.766397] INFO: gensim.models.word2vec: PROGRESS: at 66.84% examples, 197397 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:01.779412] INFO: gensim.models.word2vec: PROGRESS: at 67.01% examples, 197382 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:02.583651] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVI.fa
+[2019-06-20 18:14:02.590515] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:14:02.590899] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:14:02.593154] INFO: SeqGenerator: Whole fasta seqlen: 270161
+[2019-06-20 18:14:02.845744] INFO: gensim.models.word2vec: PROGRESS: at 67.18% examples, 197378 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:03.898502] INFO: gensim.models.word2vec: PROGRESS: at 67.36% examples, 197382 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:03.900871] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVIII.fa
+[2019-06-20 18:14:03.900954] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:14:03.900994] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:14:03.905505] INFO: SeqGenerator: Whole fasta seqlen: 562643
+[2019-06-20 18:14:04.944832] INFO: gensim.models.word2vec: PROGRESS: at 67.54% examples, 197387 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:05.963466] INFO: gensim.models.word2vec: PROGRESS: at 67.71% examples, 197400 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:06.704866] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrM.fa
+[2019-06-20 18:14:06.705062] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:14:06.705113] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:14:06.705919] INFO: SeqGenerator: Whole fasta seqlen: 85779
+[2019-06-20 18:14:07.027396] INFO: gensim.models.word2vec: PROGRESS: at 67.88% examples, 197357 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:07.177090] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVII.fa
+[2019-06-20 18:14:07.177217] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:14:07.177258] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:14:07.185857] INFO: SeqGenerator: Whole fasta seqlen: 1090940
+[2019-06-20 18:14:08.041705] INFO: gensim.models.word2vec: PROGRESS: at 68.05% examples, 197370 words/s, in_qsize 7, out_qsize 1
+[2019-06-20 18:14:09.052845] INFO: gensim.models.word2vec: PROGRESS: at 68.22% examples, 197376 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:10.069555] INFO: gensim.models.word2vec: PROGRESS: at 68.39% examples, 197339 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:11.076230] INFO: gensim.models.word2vec: PROGRESS: at 68.56% examples, 197345 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:12.080695] INFO: gensim.models.word2vec: PROGRESS: at 68.71% examples, 197328 words/s, in_qsize 7, out_qsize 1
+[2019-06-20 18:14:12.627984] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIII.fa
+[2019-06-20 18:14:12.628119] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:14:12.628158] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:14:12.630836] INFO: SeqGenerator: Whole fasta seqlen: 316620
+[2019-06-20 18:14:13.096547] INFO: gensim.models.word2vec: PROGRESS: at 68.89% examples, 197341 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:14.097225] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXII.fa
+[2019-06-20 18:14:14.097346] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:14:14.097389] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-06-20 18:14:14.106105] INFO: SeqGenerator: Whole fasta seqlen: 1078177
+[2019-06-20 18:14:14.186431] INFO: gensim.models.word2vec: PROGRESS: at 69.07% examples, 197323 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:15.241215] INFO: gensim.models.word2vec: PROGRESS: at 69.24% examples, 197305 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:16.254671] INFO: gensim.models.word2vec: PROGRESS: at 69.41% examples, 197300 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:17.288148] INFO: gensim.models.word2vec: PROGRESS: at 69.58% examples, 197301 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:18.338907] INFO: gensim.models.word2vec: PROGRESS: at 69.75% examples, 197302 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:19.344564] INFO: gensim.models.word2vec: PROGRESS: at 69.92% examples, 197306 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:19.613898] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXI.fa
+[2019-06-20 18:14:19.614028] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:14:19.614075] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:14:19.619524] INFO: SeqGenerator: Whole fasta seqlen: 666816
+[2019-06-20 18:14:20.401880] INFO: gensim.models.word2vec: PROGRESS: at 70.09% examples, 197286 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:21.471234] INFO: gensim.models.word2vec: PROGRESS: at 70.26% examples, 197272 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:22.482932] INFO: gensim.models.word2vec: PROGRESS: at 70.43% examples, 197271 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:14:22.982626] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIII.fa
+[2019-06-20 18:14:22.983040] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:14:22.983087] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:14:22.990452] INFO: SeqGenerator: Whole fasta seqlen: 924431
+[2019-06-20 18:14:23.495780] INFO: gensim.models.word2vec: PROGRESS: at 70.59% examples, 197239 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:14:24.499343] INFO: gensim.models.word2vec: PROGRESS: at 70.76% examples, 197257 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:25.522395] INFO: gensim.models.word2vec: PROGRESS: at 70.93% examples, 197242 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:26.554831] INFO: gensim.models.word2vec: PROGRESS: at 71.10% examples, 197244 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:27.574989] INFO: gensim.models.word2vec: PROGRESS: at 71.27% examples, 197242 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:27.582204] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIV.fa
+[2019-06-20 18:14:27.582294] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:14:27.582336] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:14:27.588516] INFO: SeqGenerator: Whole fasta seqlen: 784333
+[2019-06-20 18:14:28.635881] INFO: gensim.models.word2vec: PROGRESS: at 71.44% examples, 197221 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:14:29.668019] INFO: gensim.models.word2vec: PROGRESS: at 71.61% examples, 197237 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:30.681748] INFO: gensim.models.word2vec: PROGRESS: at 71.77% examples, 197228 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:31.487896] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXVI.fa
+[2019-06-20 18:14:31.488018] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:14:31.488058] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:14:31.495682] INFO: SeqGenerator: Whole fasta seqlen: 948066
+[2019-06-20 18:14:31.715926] INFO: gensim.models.word2vec: PROGRESS: at 71.95% examples, 197233 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:32.739851] INFO: gensim.models.word2vec: PROGRESS: at 72.11% examples, 197211 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:33.741064] INFO: gensim.models.word2vec: PROGRESS: at 72.28% examples, 197211 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:14:34.754709] INFO: gensim.models.word2vec: PROGRESS: at 72.43% examples, 197207 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:35.791315] INFO: gensim.models.word2vec: PROGRESS: at 72.59% examples, 197177 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:36.249424] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIV.fa
+[2019-06-20 18:14:36.249560] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:14:36.249599] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:14:36.262284] INFO: SeqGenerator: Whole fasta seqlen: 1531933
+[2019-06-20 18:14:36.792201] INFO: gensim.models.word2vec: PROGRESS: at 72.75% examples, 197175 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:37.819991] INFO: gensim.models.word2vec: PROGRESS: at 72.93% examples, 197185 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:38.832682] INFO: gensim.models.word2vec: PROGRESS: at 73.10% examples, 197190 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:39.837327] INFO: gensim.models.word2vec: PROGRESS: at 73.27% examples, 197191 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:40.877093] INFO: gensim.models.word2vec: PROGRESS: at 73.43% examples, 197192 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:41.894687] INFO: gensim.models.word2vec: PROGRESS: at 73.60% examples, 197188 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:14:42.900840] INFO: gensim.models.word2vec: PROGRESS: at 73.77% examples, 197188 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:43.856500] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIX.fa
+[2019-06-20 18:14:43.856633] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:14:43.856674] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:14:43.860235] INFO: SeqGenerator: Whole fasta seqlen: 439888
+[2019-06-20 18:14:43.963550] INFO: gensim.models.word2vec: PROGRESS: at 73.94% examples, 197154 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:45.035172] INFO: gensim.models.word2vec: PROGRESS: at 74.12% examples, 197158 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:46.073071] INFO: gensim.models.word2vec: PROGRESS: at 74.29% examples, 197156 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:46.108516] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrX.fa
+[2019-06-20 18:14:46.108936] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:14:46.108976] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:14:46.114867] INFO: SeqGenerator: Whole fasta seqlen: 745751
+[2019-06-20 18:14:47.113221] INFO: gensim.models.word2vec: PROGRESS: at 74.46% examples, 197158 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:48.139668] INFO: gensim.models.word2vec: PROGRESS: at 74.62% examples, 197155 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:49.171822] INFO: gensim.models.word2vec: PROGRESS: at 74.80% examples, 197162 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:49.753086] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrI.fa
+[2019-06-20 18:14:49.753209] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:14:49.753249] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:14:49.755119] INFO: SeqGenerator: Whole fasta seqlen: 230218
+[2019-06-20 18:14:50.186991] INFO: gensim.models.word2vec: PROGRESS: at 74.96% examples, 197148 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:50.995680] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXV.fa
+[2019-06-20 18:14:50.996138] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:14:50.996193] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:14:51.004924] INFO: SeqGenerator: Whole fasta seqlen: 1091291
+[2019-06-20 18:14:51.188029] INFO: gensim.models.word2vec: PROGRESS: at 75.13% examples, 197148 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:52.248616] INFO: gensim.models.word2vec: PROGRESS: at 75.30% examples, 197132 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:53.285508] INFO: gensim.models.word2vec: PROGRESS: at 75.47% examples, 197131 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:54.286686] INFO: gensim.models.word2vec: PROGRESS: at 75.65% examples, 197142 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:55.290698] INFO: gensim.models.word2vec: PROGRESS: at 75.81% examples, 197141 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:56.297628] INFO: gensim.models.word2vec: PROGRESS: at 75.97% examples, 197129 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:56.367607] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrII.fa
+[2019-06-20 18:14:56.367723] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:14:56.367763] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:14:56.374224] INFO: SeqGenerator: Whole fasta seqlen: 813184
+[2019-06-20 18:14:57.315546] INFO: gensim.models.word2vec: PROGRESS: at 76.14% examples, 197127 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:14:58.365617] INFO: gensim.models.word2vec: PROGRESS: at 76.31% examples, 197122 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:14:59.398447] INFO: gensim.models.word2vec: PROGRESS: at 76.48% examples, 197122 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:00.410570] INFO: gensim.models.word2vec: PROGRESS: at 76.66% examples, 197121 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:00.431468] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrV.fa
+[2019-06-20 18:15:00.431560] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:15:00.431599] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:15:00.436157] INFO: SeqGenerator: Whole fasta seqlen: 576874
+[2019-06-20 18:15:01.430116] INFO: gensim.models.word2vec: PROGRESS: at 76.83% examples, 197120 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:15:02.458758] INFO: gensim.models.word2vec: PROGRESS: at 77.02% examples, 197131 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:03.302790] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVI.fa
+[2019-06-20 18:15:03.302915] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:15:03.302957] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:15:03.305168] INFO: SeqGenerator: Whole fasta seqlen: 270161
+[2019-06-20 18:15:03.475580] INFO: gensim.models.word2vec: PROGRESS: at 77.18% examples, 197108 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:04.481397] INFO: gensim.models.word2vec: PROGRESS: at 77.35% examples, 197117 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:04.618456] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVIII.fa
+[2019-06-20 18:15:04.618589] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:15:04.618628] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:15:04.623099] INFO: SeqGenerator: Whole fasta seqlen: 562643
+[2019-06-20 18:15:05.487763] INFO: gensim.models.word2vec: PROGRESS: at 77.51% examples, 197107 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:15:06.508534] INFO: gensim.models.word2vec: PROGRESS: at 77.68% examples, 197095 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:15:07.453732] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrM.fa
+[2019-06-20 18:15:07.453856] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:15:07.453907] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:15:07.454676] INFO: SeqGenerator: Whole fasta seqlen: 85779
+[2019-06-20 18:15:07.528034] INFO: gensim.models.word2vec: PROGRESS: at 77.86% examples, 197111 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:07.846814] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVII.fa
+[2019-06-20 18:15:07.852255] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:15:07.857175] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:15:07.866466] INFO: SeqGenerator: Whole fasta seqlen: 1090940
+[2019-06-20 18:15:08.574750] INFO: gensim.models.word2vec: PROGRESS: at 78.04% examples, 197111 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:09.579180] INFO: gensim.models.word2vec: PROGRESS: at 78.21% examples, 197104 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:10.590408] INFO: gensim.models.word2vec: PROGRESS: at 78.37% examples, 197101 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:11.653677] INFO: gensim.models.word2vec: PROGRESS: at 78.55% examples, 197105 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:12.661376] INFO: gensim.models.word2vec: PROGRESS: at 78.72% examples, 197121 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:13.257129] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIII.fa
+[2019-06-20 18:15:13.257255] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:15:13.257297] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:15:13.265567] INFO: SeqGenerator: Whole fasta seqlen: 316620
+[2019-06-20 18:15:13.663396] INFO: gensim.models.word2vec: PROGRESS: at 78.88% examples, 197118 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:14.688796] INFO: gensim.models.word2vec: PROGRESS: at 79.05% examples, 197113 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:14.821341] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXII.fa
+[2019-06-20 18:15:14.821459] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:15:14.821576] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-06-20 18:15:14.830117] INFO: SeqGenerator: Whole fasta seqlen: 1078177
+[2019-06-20 18:15:15.788655] INFO: gensim.models.word2vec: PROGRESS: at 79.23% examples, 197103 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:16.804051] INFO: gensim.models.word2vec: PROGRESS: at 79.40% examples, 197107 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:17.815048] INFO: gensim.models.word2vec: PROGRESS: at 79.57% examples, 197109 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:15:18.824236] INFO: gensim.models.word2vec: PROGRESS: at 79.73% examples, 197106 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:19.892697] INFO: gensim.models.word2vec: PROGRESS: at 79.91% examples, 197112 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:20.142085] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXI.fa
+[2019-06-20 18:15:20.142221] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:15:20.142259] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:15:20.147746] INFO: SeqGenerator: Whole fasta seqlen: 666816
+[2019-06-20 18:15:20.927597] INFO: gensim.models.word2vec: PROGRESS: at 80.08% examples, 197117 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:21.983019] INFO: gensim.models.word2vec: PROGRESS: at 80.24% examples, 197099 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:22.983214] INFO: gensim.models.word2vec: PROGRESS: at 80.42% examples, 197110 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:23.492718] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIII.fa
+[2019-06-20 18:15:23.492837] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:15:23.492876] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:15:23.500338] INFO: SeqGenerator: Whole fasta seqlen: 924431
+[2019-06-20 18:15:23.987073] INFO: gensim.models.word2vec: PROGRESS: at 80.59% examples, 197114 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:25.001012] INFO: gensim.models.word2vec: PROGRESS: at 80.75% examples, 197104 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:26.013411] INFO: gensim.models.word2vec: PROGRESS: at 80.92% examples, 197114 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:27.025387] INFO: gensim.models.word2vec: PROGRESS: at 81.09% examples, 197107 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:28.034913] INFO: gensim.models.word2vec: PROGRESS: at 81.28% examples, 197122 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:28.035860] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIV.fa
+[2019-06-20 18:15:28.035985] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:15:28.036032] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:15:28.042231] INFO: SeqGenerator: Whole fasta seqlen: 784333
+[2019-06-20 18:15:29.064538] INFO: gensim.models.word2vec: PROGRESS: at 81.44% examples, 197105 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:30.070114] INFO: gensim.models.word2vec: PROGRESS: at 81.61% examples, 197092 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:31.114512] INFO: gensim.models.word2vec: PROGRESS: at 81.79% examples, 197103 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:31.955020] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXVI.fa
+[2019-06-20 18:15:31.955138] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:15:31.955180] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:15:31.963065] INFO: SeqGenerator: Whole fasta seqlen: 948066
+[2019-06-20 18:15:32.170489] INFO: gensim.models.word2vec: PROGRESS: at 81.96% examples, 197092 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:15:33.183404] INFO: gensim.models.word2vec: PROGRESS: at 82.13% examples, 197098 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:34.187930] INFO: gensim.models.word2vec: PROGRESS: at 82.30% examples, 197102 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:35.198369] INFO: gensim.models.word2vec: PROGRESS: at 82.46% examples, 197105 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:36.212522] INFO: gensim.models.word2vec: PROGRESS: at 82.62% examples, 197088 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:36.644140] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIV.fa
+[2019-06-20 18:15:36.644540] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:15:36.644591] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:15:36.656603] INFO: SeqGenerator: Whole fasta seqlen: 1531933
+[2019-06-20 18:15:37.239307] INFO: gensim.models.word2vec: PROGRESS: at 82.79% examples, 197083 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:38.256508] INFO: gensim.models.word2vec: PROGRESS: at 82.95% examples, 197059 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:39.296075] INFO: gensim.models.word2vec: PROGRESS: at 83.14% examples, 197066 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:15:40.359053] INFO: gensim.models.word2vec: PROGRESS: at 83.31% examples, 197053 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:41.381034] INFO: gensim.models.word2vec: PROGRESS: at 83.49% examples, 197063 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:42.382682] INFO: gensim.models.word2vec: PROGRESS: at 83.66% examples, 197082 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:15:43.396284] INFO: gensim.models.word2vec: PROGRESS: at 83.82% examples, 197058 words/s, in_qsize 7, out_qsize 1
+[2019-06-20 18:15:44.326992] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIX.fa
+[2019-06-20 18:15:44.331633] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:15:44.331962] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:15:44.335451] INFO: SeqGenerator: Whole fasta seqlen: 439888
+[2019-06-20 18:15:44.452901] INFO: gensim.models.word2vec: PROGRESS: at 83.99% examples, 197050 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:45.485177] INFO: gensim.models.word2vec: PROGRESS: at 84.16% examples, 197047 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:15:46.551397] INFO: gensim.models.word2vec: PROGRESS: at 84.33% examples, 197055 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:46.554666] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrX.fa
+[2019-06-20 18:15:46.555085] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:15:46.555130] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:15:46.569051] INFO: SeqGenerator: Whole fasta seqlen: 745751
+[2019-06-20 18:15:47.557319] INFO: gensim.models.word2vec: PROGRESS: at 84.51% examples, 197055 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:48.636260] INFO: gensim.models.word2vec: PROGRESS: at 84.69% examples, 197057 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:49.656750] INFO: gensim.models.word2vec: PROGRESS: at 84.86% examples, 197051 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:50.275769] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrI.fa
+[2019-06-20 18:15:50.275898] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:15:50.275938] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:15:50.277846] INFO: SeqGenerator: Whole fasta seqlen: 230218
+[2019-06-20 18:15:50.660095] INFO: gensim.models.word2vec: PROGRESS: at 85.04% examples, 197064 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:51.407055] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXV.fa
+[2019-06-20 18:15:51.412519] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:15:51.412917] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:15:51.421478] INFO: SeqGenerator: Whole fasta seqlen: 1091291
+[2019-06-20 18:15:51.705535] INFO: gensim.models.word2vec: PROGRESS: at 85.20% examples, 197049 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:52.715134] INFO: gensim.models.word2vec: PROGRESS: at 85.37% examples, 197053 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:53.740092] INFO: gensim.models.word2vec: PROGRESS: at 85.55% examples, 197047 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:54.763274] INFO: gensim.models.word2vec: PROGRESS: at 85.71% examples, 197044 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:55.780859] INFO: gensim.models.word2vec: PROGRESS: at 85.88% examples, 197029 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:56.804893] INFO: gensim.models.word2vec: PROGRESS: at 86.05% examples, 197023 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:56.815354] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrII.fa
+[2019-06-20 18:15:56.823247] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:15:56.823313] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:15:56.830235] INFO: SeqGenerator: Whole fasta seqlen: 813184
+[2019-06-20 18:15:57.865295] INFO: gensim.models.word2vec: PROGRESS: at 86.24% examples, 197037 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:15:58.911230] INFO: gensim.models.word2vec: PROGRESS: at 86.41% examples, 197042 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:15:59.967352] INFO: gensim.models.word2vec: PROGRESS: at 86.58% examples, 197034 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:00.877311] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrV.fa
+[2019-06-20 18:16:00.877429] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:16:00.877470] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:16:00.882011] INFO: SeqGenerator: Whole fasta seqlen: 576874
+[2019-06-20 18:16:01.029262] INFO: gensim.models.word2vec: PROGRESS: at 86.75% examples, 197031 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:02.081900] INFO: gensim.models.word2vec: PROGRESS: at 86.91% examples, 197022 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:03.093500] INFO: gensim.models.word2vec: PROGRESS: at 87.09% examples, 197028 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:16:03.732763] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVI.fa
+[2019-06-20 18:16:03.732911] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:16:03.732950] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:16:03.735098] INFO: SeqGenerator: Whole fasta seqlen: 270161
+[2019-06-20 18:16:04.134709] INFO: gensim.models.word2vec: PROGRESS: at 87.25% examples, 197009 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:05.119648] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVIII.fa
+[2019-06-20 18:16:05.119772] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:16:05.119811] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:16:05.124334] INFO: SeqGenerator: Whole fasta seqlen: 562643
+[2019-06-20 18:16:05.149012] INFO: gensim.models.word2vec: PROGRESS: at 87.42% examples, 197016 words/s, in_qsize 7, out_qsize 1
+[2019-06-20 18:16:06.220976] INFO: gensim.models.word2vec: PROGRESS: at 87.59% examples, 196999 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:07.247760] INFO: gensim.models.word2vec: PROGRESS: at 87.77% examples, 197019 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:16:07.854228] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrM.fa
+[2019-06-20 18:16:07.854349] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:16:07.854390] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:16:07.855140] INFO: SeqGenerator: Whole fasta seqlen: 85779
+[2019-06-20 18:16:08.283071] INFO: gensim.models.word2vec: PROGRESS: at 87.94% examples, 197016 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:08.285173] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVII.fa
+[2019-06-20 18:16:08.285252] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:16:08.285293] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:16:08.293912] INFO: SeqGenerator: Whole fasta seqlen: 1090940
+[2019-06-20 18:16:09.325418] INFO: gensim.models.word2vec: PROGRESS: at 88.11% examples, 197021 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:10.393217] INFO: gensim.models.word2vec: PROGRESS: at 88.29% examples, 197021 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:11.405296] INFO: gensim.models.word2vec: PROGRESS: at 88.46% examples, 197016 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:12.497103] INFO: gensim.models.word2vec: PROGRESS: at 88.64% examples, 197017 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:16:13.545087] INFO: gensim.models.word2vec: PROGRESS: at 88.81% examples, 197037 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:13.633293] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIII.fa
+[2019-06-20 18:16:13.633789] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:16:13.633837] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:16:13.641276] INFO: SeqGenerator: Whole fasta seqlen: 316620
+[2019-06-20 18:16:14.554120] INFO: gensim.models.word2vec: PROGRESS: at 88.99% examples, 197043 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:15.219527] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXII.fa
+[2019-06-20 18:16:15.219648] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:16:15.219687] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-06-20 18:16:15.228227] INFO: SeqGenerator: Whole fasta seqlen: 1078177
+[2019-06-20 18:16:15.577322] INFO: gensim.models.word2vec: PROGRESS: at 89.15% examples, 197039 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:16.594526] INFO: gensim.models.word2vec: PROGRESS: at 89.32% examples, 197029 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:17.656826] INFO: gensim.models.word2vec: PROGRESS: at 89.49% examples, 197036 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:18.658089] INFO: gensim.models.word2vec: PROGRESS: at 89.66% examples, 197033 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:16:19.722641] INFO: gensim.models.word2vec: PROGRESS: at 89.84% examples, 197021 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:20.615281] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXI.fa
+[2019-06-20 18:16:20.615803] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:16:20.615857] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:16:20.621199] INFO: SeqGenerator: Whole fasta seqlen: 666816
+[2019-06-20 18:16:20.750328] INFO: gensim.models.word2vec: PROGRESS: at 90.00% examples, 197014 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:21.810193] INFO: gensim.models.word2vec: PROGRESS: at 90.18% examples, 197017 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:22.828862] INFO: gensim.models.word2vec: PROGRESS: at 90.35% examples, 197024 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:23.836895] INFO: gensim.models.word2vec: PROGRESS: at 90.51% examples, 197023 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:23.919098] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIII.fa
+[2019-06-20 18:16:23.919228] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:16:23.919268] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:16:23.926534] INFO: SeqGenerator: Whole fasta seqlen: 924431
+[2019-06-20 18:16:24.853250] INFO: gensim.models.word2vec: PROGRESS: at 90.67% examples, 197019 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:25.866577] INFO: gensim.models.word2vec: PROGRESS: at 90.84% examples, 197027 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:26.885067] INFO: gensim.models.word2vec: PROGRESS: at 91.01% examples, 197022 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:16:27.894595] INFO: gensim.models.word2vec: PROGRESS: at 91.17% examples, 197019 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:28.495334] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXIV.fa
+[2019-06-20 18:16:28.495469] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:16:28.495511] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:16:28.507372] INFO: SeqGenerator: Whole fasta seqlen: 784333
+[2019-06-20 18:16:28.931664] INFO: gensim.models.word2vec: PROGRESS: at 91.34% examples, 197005 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:30.001892] INFO: gensim.models.word2vec: PROGRESS: at 91.51% examples, 197010 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:31.072175] INFO: gensim.models.word2vec: PROGRESS: at 91.68% examples, 197000 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:32.090421] INFO: gensim.models.word2vec: PROGRESS: at 91.85% examples, 197002 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:16:32.428448] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXVI.fa
+[2019-06-20 18:16:32.435601] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:16:32.435678] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:16:32.443514] INFO: SeqGenerator: Whole fasta seqlen: 948066
+[2019-06-20 18:16:33.098944] INFO: gensim.models.word2vec: PROGRESS: at 92.02% examples, 197004 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:34.109466] INFO: gensim.models.word2vec: PROGRESS: at 92.17% examples, 196983 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:35.125651] INFO: gensim.models.word2vec: PROGRESS: at 92.35% examples, 196992 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:36.135334] INFO: gensim.models.word2vec: PROGRESS: at 92.53% examples, 197000 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:16:37.159256] INFO: gensim.models.word2vec: PROGRESS: at 92.69% examples, 196982 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:37.174165] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIV.fa
+[2019-06-20 18:16:37.174589] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:16:37.180824] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:16:37.193298] INFO: SeqGenerator: Whole fasta seqlen: 1531933
+[2019-06-20 18:16:38.172272] INFO: gensim.models.word2vec: PROGRESS: at 92.87% examples, 196990 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:16:39.232409] INFO: gensim.models.word2vec: PROGRESS: at 93.04% examples, 196972 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:40.316501] INFO: gensim.models.word2vec: PROGRESS: at 93.21% examples, 196964 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:41.338097] INFO: gensim.models.word2vec: PROGRESS: at 93.38% examples, 196963 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:42.382671] INFO: gensim.models.word2vec: PROGRESS: at 93.54% examples, 196958 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:43.398261] INFO: gensim.models.word2vec: PROGRESS: at 93.71% examples, 196960 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:44.401436] INFO: gensim.models.word2vec: PROGRESS: at 93.87% examples, 196960 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:16:44.830181] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIX.fa
+[2019-06-20 18:16:44.830626] INFO: SeqGenerator: Memory usage: 0.201372 MB
+[2019-06-20 18:16:44.830692] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:16:44.834206] INFO: SeqGenerator: Whole fasta seqlen: 439888
+[2019-06-20 18:16:45.460235] INFO: gensim.models.word2vec: PROGRESS: at 94.04% examples, 196959 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:46.485351] INFO: gensim.models.word2vec: PROGRESS: at 94.21% examples, 196954 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:47.007383] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrX.fa
+[2019-06-20 18:16:47.007518] INFO: SeqGenerator: Memory usage: 0.201432 MB
+[2019-06-20 18:16:47.007556] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:16:47.013585] INFO: SeqGenerator: Whole fasta seqlen: 745751
+[2019-06-20 18:16:47.517975] INFO: gensim.models.word2vec: PROGRESS: at 94.39% examples, 196955 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:48.523377] INFO: gensim.models.word2vec: PROGRESS: at 94.55% examples, 196965 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:49.525267] INFO: gensim.models.word2vec: PROGRESS: at 94.72% examples, 196964 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:50.530505] INFO: gensim.models.word2vec: PROGRESS: at 94.89% examples, 196965 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:50.660122] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrI.fa
+[2019-06-20 18:16:50.668143] INFO: SeqGenerator: Memory usage: 0.201432 MB
+[2019-06-20 18:16:50.668597] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:16:50.670513] INFO: SeqGenerator: Whole fasta seqlen: 230218
+[2019-06-20 18:16:51.560495] INFO: gensim.models.word2vec: PROGRESS: at 95.06% examples, 196964 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:51.891508] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXV.fa
+[2019-06-20 18:16:51.891866] INFO: SeqGenerator: Memory usage: 0.201432 MB
+[2019-06-20 18:16:51.891913] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:16:51.900652] INFO: SeqGenerator: Whole fasta seqlen: 1091291
+[2019-06-20 18:16:52.614801] INFO: gensim.models.word2vec: PROGRESS: at 95.22% examples, 196941 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:53.622461] INFO: gensim.models.word2vec: PROGRESS: at 95.39% examples, 196950 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:16:54.710721] INFO: gensim.models.word2vec: PROGRESS: at 95.56% examples, 196942 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:55.729606] INFO: gensim.models.word2vec: PROGRESS: at 95.72% examples, 196939 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:16:56.740666] INFO: gensim.models.word2vec: PROGRESS: at 95.89% examples, 196939 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:57.375197] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrII.fa
+[2019-06-20 18:16:57.375313] INFO: SeqGenerator: Memory usage: 0.201432 MB
+[2019-06-20 18:16:57.375352] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:16:57.381840] INFO: SeqGenerator: Whole fasta seqlen: 813184
+[2019-06-20 18:16:57.775503] INFO: gensim.models.word2vec: PROGRESS: at 96.06% examples, 196938 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:58.815278] INFO: gensim.models.word2vec: PROGRESS: at 96.24% examples, 196947 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:16:59.852839] INFO: gensim.models.word2vec: PROGRESS: at 96.41% examples, 196936 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:17:00.857800] INFO: gensim.models.word2vec: PROGRESS: at 96.58% examples, 196933 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:17:01.324186] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrV.fa
+[2019-06-20 18:17:01.324313] INFO: SeqGenerator: Memory usage: 0.201432 MB
+[2019-06-20 18:17:01.324354] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:17:01.328918] INFO: SeqGenerator: Whole fasta seqlen: 576874
+[2019-06-20 18:17:01.895612] INFO: gensim.models.word2vec: PROGRESS: at 96.75% examples, 196925 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:17:02.905588] INFO: gensim.models.word2vec: PROGRESS: at 96.92% examples, 196936 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:17:03.909276] INFO: gensim.models.word2vec: PROGRESS: at 97.09% examples, 196941 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:17:04.194510] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVI.fa
+[2019-06-20 18:17:04.194968] INFO: SeqGenerator: Memory usage: 0.201432 MB
+[2019-06-20 18:17:04.195020] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:17:04.197189] INFO: SeqGenerator: Whole fasta seqlen: 270161
+[2019-06-20 18:17:04.919499] INFO: gensim.models.word2vec: PROGRESS: at 97.26% examples, 196940 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:17:05.583629] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVIII.fa
+[2019-06-20 18:17:05.583761] INFO: SeqGenerator: Memory usage: 0.201432 MB
+[2019-06-20 18:17:05.583803] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:17:05.588320] INFO: SeqGenerator: Whole fasta seqlen: 562643
+[2019-06-20 18:17:05.945070] INFO: gensim.models.word2vec: PROGRESS: at 97.43% examples, 196947 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:17:07.006109] INFO: gensim.models.word2vec: PROGRESS: at 97.60% examples, 196931 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:17:08.042196] INFO: gensim.models.word2vec: PROGRESS: at 97.77% examples, 196938 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:17:08.325371] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrM.fa
+[2019-06-20 18:17:08.325492] INFO: SeqGenerator: Memory usage: 0.201432 MB
+[2019-06-20 18:17:08.325533] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:17:08.326285] INFO: SeqGenerator: Whole fasta seqlen: 85779
+[2019-06-20 18:17:08.741160] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrVII.fa
+[2019-06-20 18:17:08.741279] INFO: SeqGenerator: Memory usage: 0.201432 MB
+[2019-06-20 18:17:08.741321] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:17:08.749956] INFO: SeqGenerator: Whole fasta seqlen: 1090940
+[2019-06-20 18:17:09.056523] INFO: gensim.models.word2vec: PROGRESS: at 97.94% examples, 196949 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:17:10.093934] INFO: gensim.models.word2vec: PROGRESS: at 98.11% examples, 196950 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:17:11.144412] INFO: gensim.models.word2vec: PROGRESS: at 98.29% examples, 196944 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:17:12.166803] INFO: gensim.models.word2vec: PROGRESS: at 98.46% examples, 196933 words/s, in_qsize 6, out_qsize 1
+[2019-06-20 18:17:13.171033] INFO: gensim.models.word2vec: PROGRESS: at 98.63% examples, 196938 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:17:14.177232] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrIII.fa
+[2019-06-20 18:17:14.177471] INFO: gensim.models.word2vec: PROGRESS: at 98.80% examples, 196952 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:17:14.177953] INFO: SeqGenerator: Memory usage: 0.201432 MB
+[2019-06-20 18:17:14.178058] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:17:14.180607] INFO: SeqGenerator: Whole fasta seqlen: 316620
+[2019-06-20 18:17:15.191832] INFO: gensim.models.word2vec: PROGRESS: at 98.97% examples, 196943 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:17:15.719251] INFO: SeqGenerator: Opened file: inputs/sacCer3/chrXII.fa
+[2019-06-20 18:17:15.719371] INFO: SeqGenerator: Memory usage: 0.201432 MB
+[2019-06-20 18:17:15.719418] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-06-20 18:17:15.727938] INFO: SeqGenerator: Whole fasta seqlen: 1078177
+[2019-06-20 18:17:16.212974] INFO: gensim.models.word2vec: PROGRESS: at 99.15% examples, 196953 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:17:17.216984] INFO: gensim.models.word2vec: PROGRESS: at 99.31% examples, 196948 words/s, in_qsize 8, out_qsize 0
+[2019-06-20 18:17:18.227046] INFO: gensim.models.word2vec: PROGRESS: at 99.46% examples, 196940 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:17:19.267624] INFO: gensim.models.word2vec: PROGRESS: at 99.62% examples, 196933 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:17:20.275186] INFO: gensim.models.word2vec: PROGRESS: at 99.78% examples, 196933 words/s, in_qsize 7, out_qsize 0
+[2019-06-20 18:17:21.368689] INFO: gensim.models.word2vec: PROGRESS: at 99.96% examples, 196927 words/s, in_qsize 6, out_qsize 0
+[2019-06-20 18:17:21.390564] INFO: gensim.models.word2vec: worker thread finished; awaiting finish of 3 more threads
+[2019-06-20 18:17:21.511408] INFO: gensim.models.word2vec: worker thread finished; awaiting finish of 2 more threads
+[2019-06-20 18:17:21.531498] INFO: gensim.models.word2vec: worker thread finished; awaiting finish of 1 more threads
+[2019-06-20 18:17:21.557589] INFO: gensim.models.word2vec: worker thread finished; awaiting finish of 0 more threads
+[2019-06-20 18:17:21.557737] INFO: gensim.models.word2vec: training on 121343830 raw words (118640352 effective words) took 602.4s, 196947 effective words/s
+[2019-06-20 18:17:21.558047] INFO: gensim.models.word2vec: storing 87360x100 projection weights into results//dna2vec-20190620-1803-k3to8-100d-10c-120Mbp-sliding-ESW.w2v
+[2019-06-20 18:17:25.016360] INFO: Histogram: Percent of  3-mers: 16.7% (20222195)
+[2019-06-20 18:17:25.016491] INFO: Histogram: Percent of  4-mers: 16.7% (20225786)
+[2019-06-20 18:17:25.016532] INFO: Histogram: Percent of  5-mers: 16.7% (20225462)
+[2019-06-20 18:17:25.016583] INFO: Histogram: Percent of  6-mers: 16.7% (20232619)
+[2019-06-20 18:17:25.016614] INFO: Histogram: Percent of  7-mers: 16.7% (20212944)
+[2019-06-20 18:17:25.016645] INFO: Histogram: Percent of  8-mers: 16.7% (20224824)
+[2019-06-20 18:17:25.016680] INFO: Histogram: Number of base-pairs: 667381953
+[2019-06-20 18:17:25.016734] INFO: Benchmark:  wall=13.787m cpu=44.284m

@@ -1,0 +1,321 @@
+[2019-07-09 21:17:35.776561] INFO: Generic: ./scripts/train_dna2vec.py -c configs/bSubtilis168-20190709-0507.yml
+[2019-07-09 21:17:35.776707] INFO: Generic: kmer fragmenter: sliding
+[2019-07-09 21:17:35.776761] INFO: SeqGenerator: Number of epochs: 10
+[2019-07-09 21:17:35.776804] INFO: Learner: word2vec.FAST_VERSION (should be >= 0): 1
+[2019-07-09 21:17:35.776837] INFO: Learner: Context window half size: 10
+[2019-07-09 21:17:35.776867] INFO: Learner: Use skipgram: 1
+[2019-07-09 21:17:35.776894] INFO: Learner: gensim_iters: 1
+[2019-07-09 21:17:35.776921] INFO: Learner: vec_dim: 100
+[2019-07-09 21:17:35.777248] INFO: gensim.models.word2vec: collecting all words and their counts
+[2019-07-09 21:17:35.777330] INFO: SeqGenerator: Opened file: inputs/bSubtilis168/GCA_000009045.1_ASM904v1_genomic.fna
+[2019-07-09 21:17:35.777404] INFO: SeqGenerator: Memory usage: 0.071716 MB
+[2019-07-09 21:17:35.777439] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-07-09 21:17:35.808826] INFO: SeqGenerator: Whole fasta seqlen: 4215606
+[2019-07-09 21:17:35.815905] INFO: gensim.models.word2vec: PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+[2019-07-09 21:17:43.859076] INFO: SeqGenerator: Opened file: inputs/bSubtilis168/GCA_000009045.1_ASM904v1_genomic.fna
+[2019-07-09 21:17:43.859252] INFO: SeqGenerator: Memory usage: 0.093144 MB
+[2019-07-09 21:17:43.859309] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-07-09 21:17:43.886173] INFO: SeqGenerator: Whole fasta seqlen: 4215606
+[2019-07-09 21:17:51.958233] INFO: SeqGenerator: Opened file: inputs/bSubtilis168/GCA_000009045.1_ASM904v1_genomic.fna
+[2019-07-09 21:17:51.958435] INFO: SeqGenerator: Memory usage: 0.097076 MB
+[2019-07-09 21:17:51.958476] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-07-09 21:17:51.984797] INFO: SeqGenerator: Whole fasta seqlen: 4215606
+[2019-07-09 21:18:00.062620] INFO: SeqGenerator: Opened file: inputs/bSubtilis168/GCA_000009045.1_ASM904v1_genomic.fna
+[2019-07-09 21:18:00.062780] INFO: SeqGenerator: Memory usage: 0.097076 MB
+[2019-07-09 21:18:00.062835] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-07-09 21:18:00.088815] INFO: SeqGenerator: Whole fasta seqlen: 4215606
+[2019-07-09 21:18:08.195013] INFO: SeqGenerator: Opened file: inputs/bSubtilis168/GCA_000009045.1_ASM904v1_genomic.fna
+[2019-07-09 21:18:08.195182] INFO: SeqGenerator: Memory usage: 0.09738 MB
+[2019-07-09 21:18:08.195237] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-07-09 21:18:08.220406] INFO: SeqGenerator: Whole fasta seqlen: 4215606
+[2019-07-09 21:18:16.312892] INFO: SeqGenerator: Opened file: inputs/bSubtilis168/GCA_000009045.1_ASM904v1_genomic.fna
+[2019-07-09 21:18:16.313038] INFO: SeqGenerator: Memory usage: 0.097416 MB
+[2019-07-09 21:18:16.313093] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-07-09 21:18:16.337573] INFO: SeqGenerator: Whole fasta seqlen: 4215606
+[2019-07-09 21:18:24.445468] INFO: SeqGenerator: Opened file: inputs/bSubtilis168/GCA_000009045.1_ASM904v1_genomic.fna
+[2019-07-09 21:18:24.445616] INFO: SeqGenerator: Memory usage: 0.097952 MB
+[2019-07-09 21:18:24.445671] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-07-09 21:18:24.470644] INFO: SeqGenerator: Whole fasta seqlen: 4215606
+[2019-07-09 21:18:32.567662] INFO: SeqGenerator: Opened file: inputs/bSubtilis168/GCA_000009045.1_ASM904v1_genomic.fna
+[2019-07-09 21:18:32.567784] INFO: SeqGenerator: Memory usage: 0.098016 MB
+[2019-07-09 21:18:32.567822] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-07-09 21:18:32.592121] INFO: SeqGenerator: Whole fasta seqlen: 4215606
+[2019-07-09 21:18:40.691570] INFO: SeqGenerator: Opened file: inputs/bSubtilis168/GCA_000009045.1_ASM904v1_genomic.fna
+[2019-07-09 21:18:40.691682] INFO: SeqGenerator: Memory usage: 0.098016 MB
+[2019-07-09 21:18:40.691735] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-07-09 21:18:40.715845] INFO: SeqGenerator: Whole fasta seqlen: 4215606
+[2019-07-09 21:18:47.827403] INFO: gensim.models.word2vec: PROGRESS: at sentence #10000, processed 37354836 words, keeping 87357 word types
+[2019-07-09 21:18:48.812453] INFO: SeqGenerator: Opened file: inputs/bSubtilis168/GCA_000009045.1_ASM904v1_genomic.fna
+[2019-07-09 21:18:48.812564] INFO: SeqGenerator: Memory usage: 0.09818 MB
+[2019-07-09 21:18:48.812617] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-07-09 21:18:48.836276] INFO: SeqGenerator: Whole fasta seqlen: 4215606
+[2019-07-09 21:18:56.937092] INFO: gensim.models.word2vec: collected 87358 word types from a corpus of 42077233 raw words and 11261 sentences
+[2019-07-09 21:18:57.139317] INFO: gensim.models.word2vec: min_count=5 retains 87284 unique words (drops 74)
+[2019-07-09 21:18:57.139456] INFO: gensim.models.word2vec: min_count leaves 42076990 word corpus (99% of original 42077233)
+[2019-07-09 21:18:57.315656] INFO: gensim.models.word2vec: deleting the raw counts dictionary of 87358 items
+[2019-07-09 21:18:57.317221] INFO: gensim.models.word2vec: sample=0.001 downsamples 30 most-common words
+[2019-07-09 21:18:57.317318] INFO: gensim.models.word2vec: downsampling leaves estimated 41341599 word corpus (98.3% of prior 42076990)
+[2019-07-09 21:18:57.317392] INFO: gensim.models.word2vec: estimated required memory for 87284 words and 100 dimensions: 113469200 bytes
+[2019-07-09 21:18:57.553946] INFO: gensim.models.word2vec: resetting layer weights
+[2019-07-09 21:18:58.196434] INFO: gensim.models.word2vec: training model with 4 workers on 87284 vocabulary and 100 features, using sg=1 hs=0 sample=0.001 negative=5
+[2019-07-09 21:18:58.196589] INFO: gensim.models.word2vec: expecting 11261 sentences, matching count from corpus used for vocabulary survey
+[2019-07-09 21:18:58.199195] INFO: SeqGenerator: Opened file: inputs/bSubtilis168/GCA_000009045.1_ASM904v1_genomic.fna
+[2019-07-09 21:18:58.199436] INFO: SeqGenerator: Memory usage: 0.154028 MB
+[2019-07-09 21:18:58.199519] INFO: SeqGenerator: Current epoch: 1 / 10
+[2019-07-09 21:18:58.225225] INFO: SeqGenerator: Whole fasta seqlen: 4215606
+[2019-07-09 21:18:59.201897] INFO: gensim.models.word2vec: PROGRESS: at 0.41% examples, 170506 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:00.207912] INFO: gensim.models.word2vec: PROGRESS: at 0.89% examples, 181773 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:19:01.217708] INFO: gensim.models.word2vec: PROGRESS: at 1.33% examples, 182387 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:02.243739] INFO: gensim.models.word2vec: PROGRESS: at 1.81% examples, 184428 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:03.305607] INFO: gensim.models.word2vec: PROGRESS: at 2.30% examples, 185804 words/s, in_qsize 6, out_qsize 1
+[2019-07-09 21:19:04.315878] INFO: gensim.models.word2vec: PROGRESS: at 2.81% examples, 188322 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:05.329459] INFO: gensim.models.word2vec: PROGRESS: at 3.28% examples, 189305 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:06.442594] INFO: gensim.models.word2vec: PROGRESS: at 3.78% examples, 189199 words/s, in_qsize 6, out_qsize 1
+[2019-07-09 21:19:07.450235] INFO: gensim.models.word2vec: PROGRESS: at 4.26% examples, 190042 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:19:08.467456] INFO: gensim.models.word2vec: PROGRESS: at 4.74% examples, 190289 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:09.532854] INFO: gensim.models.word2vec: PROGRESS: at 5.24% examples, 190518 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:10.579605] INFO: gensim.models.word2vec: PROGRESS: at 5.72% examples, 190961 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:19:11.604322] INFO: gensim.models.word2vec: PROGRESS: at 6.23% examples, 191417 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:12.681931] INFO: gensim.models.word2vec: PROGRESS: at 6.74% examples, 191262 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:13.690802] INFO: gensim.models.word2vec: PROGRESS: at 7.23% examples, 192163 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:19:14.695626] INFO: gensim.models.word2vec: PROGRESS: at 7.69% examples, 192092 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:15.696231] INFO: gensim.models.word2vec: PROGRESS: at 8.12% examples, 191427 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:16.698878] INFO: gensim.models.word2vec: PROGRESS: at 8.59% examples, 191651 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:19:17.728124] INFO: gensim.models.word2vec: PROGRESS: at 9.07% examples, 191725 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:18.732652] INFO: gensim.models.word2vec: PROGRESS: at 9.54% examples, 191884 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:19:19.178350] INFO: SeqGenerator: Opened file: inputs/bSubtilis168/GCA_000009045.1_ASM904v1_genomic.fna
+[2019-07-09 21:19:19.178498] INFO: SeqGenerator: Memory usage: 0.208556 MB
+[2019-07-09 21:19:19.178538] INFO: SeqGenerator: Current epoch: 2 / 10
+[2019-07-09 21:19:19.204712] INFO: SeqGenerator: Whole fasta seqlen: 4215606
+[2019-07-09 21:19:19.747039] INFO: gensim.models.word2vec: PROGRESS: at 10.03% examples, 192151 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:20.754668] INFO: gensim.models.word2vec: PROGRESS: at 10.53% examples, 192375 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:19:21.770192] INFO: gensim.models.word2vec: PROGRESS: at 11.05% examples, 192749 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:22.805998] INFO: gensim.models.word2vec: PROGRESS: at 11.54% examples, 192658 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:23.832336] INFO: gensim.models.word2vec: PROGRESS: at 12.01% examples, 192633 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:19:24.868423] INFO: gensim.models.word2vec: PROGRESS: at 12.49% examples, 192705 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:25.949297] INFO: gensim.models.word2vec: PROGRESS: at 12.99% examples, 192698 words/s, in_qsize 7, out_qsize 1
+[2019-07-09 21:19:27.017162] INFO: gensim.models.word2vec: PROGRESS: at 13.48% examples, 192561 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:28.040522] INFO: gensim.models.word2vec: PROGRESS: at 13.97% examples, 192900 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:29.042482] INFO: gensim.models.word2vec: PROGRESS: at 14.42% examples, 192969 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:30.071300] INFO: gensim.models.word2vec: PROGRESS: at 14.94% examples, 193117 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:31.079565] INFO: gensim.models.word2vec: PROGRESS: at 15.39% examples, 193134 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:32.111545] INFO: gensim.models.word2vec: PROGRESS: at 15.87% examples, 193095 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:33.116787] INFO: gensim.models.word2vec: PROGRESS: at 16.37% examples, 193400 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:19:34.252269] INFO: gensim.models.word2vec: PROGRESS: at 16.87% examples, 192868 words/s, in_qsize 6, out_qsize 1
+[2019-07-09 21:19:35.318547] INFO: gensim.models.word2vec: PROGRESS: at 17.37% examples, 192831 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:36.356925] INFO: gensim.models.word2vec: PROGRESS: at 17.88% examples, 193021 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:37.361009] INFO: gensim.models.word2vec: PROGRESS: at 18.35% examples, 193178 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:19:38.362508] INFO: gensim.models.word2vec: PROGRESS: at 18.82% examples, 193297 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:39.454859] INFO: gensim.models.word2vec: PROGRESS: at 19.33% examples, 193315 words/s, in_qsize 7, out_qsize 1
+[2019-07-09 21:19:40.455811] INFO: SeqGenerator: Opened file: inputs/bSubtilis168/GCA_000009045.1_ASM904v1_genomic.fna
+[2019-07-09 21:19:40.455967] INFO: SeqGenerator: Memory usage: 0.21256 MB
+[2019-07-09 21:19:40.456007] INFO: SeqGenerator: Current epoch: 3 / 10
+[2019-07-09 21:19:40.481464] INFO: SeqGenerator: Whole fasta seqlen: 4215606
+[2019-07-09 21:19:40.509739] INFO: gensim.models.word2vec: PROGRESS: at 19.84% examples, 193339 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:19:41.518449] INFO: gensim.models.word2vec: PROGRESS: at 20.37% examples, 193599 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:42.530255] INFO: gensim.models.word2vec: PROGRESS: at 20.83% examples, 193500 words/s, in_qsize 6, out_qsize 1
+[2019-07-09 21:19:43.535569] INFO: gensim.models.word2vec: PROGRESS: at 21.34% examples, 193684 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:44.655250] INFO: gensim.models.word2vec: PROGRESS: at 21.83% examples, 193361 words/s, in_qsize 6, out_qsize 1
+[2019-07-09 21:19:45.695373] INFO: gensim.models.word2vec: PROGRESS: at 22.32% examples, 193358 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:46.701120] INFO: gensim.models.word2vec: PROGRESS: at 22.80% examples, 193433 words/s, in_qsize 6, out_qsize 1
+[2019-07-09 21:19:47.720974] INFO: gensim.models.word2vec: PROGRESS: at 23.33% examples, 193660 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:19:48.772967] INFO: gensim.models.word2vec: PROGRESS: at 23.81% examples, 193576 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:49.788335] INFO: gensim.models.word2vec: PROGRESS: at 24.28% examples, 193511 words/s, in_qsize 6, out_qsize 1
+[2019-07-09 21:19:50.818120] INFO: gensim.models.word2vec: PROGRESS: at 24.78% examples, 193593 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:51.836320] INFO: gensim.models.word2vec: PROGRESS: at 25.26% examples, 193697 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:52.871128] INFO: gensim.models.word2vec: PROGRESS: at 25.75% examples, 193695 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:53.877042] INFO: gensim.models.word2vec: PROGRESS: at 26.23% examples, 193844 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:19:54.882061] INFO: gensim.models.word2vec: PROGRESS: at 26.70% examples, 193838 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:55.884306] INFO: gensim.models.word2vec: PROGRESS: at 27.17% examples, 193813 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:19:56.896253] INFO: gensim.models.word2vec: PROGRESS: at 27.66% examples, 193967 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:19:57.903688] INFO: gensim.models.word2vec: PROGRESS: at 28.12% examples, 193874 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:19:58.987137] INFO: gensim.models.word2vec: PROGRESS: at 28.64% examples, 193889 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:00.012643] INFO: gensim.models.word2vec: PROGRESS: at 29.12% examples, 193935 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:01.068028] INFO: gensim.models.word2vec: PROGRESS: at 29.58% examples, 193853 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:01.615128] INFO: SeqGenerator: Opened file: inputs/bSubtilis168/GCA_000009045.1_ASM904v1_genomic.fna
+[2019-07-09 21:20:01.615299] INFO: SeqGenerator: Memory usage: 0.21256 MB
+[2019-07-09 21:20:01.615339] INFO: SeqGenerator: Current epoch: 4 / 10
+[2019-07-09 21:20:01.639702] INFO: SeqGenerator: Whole fasta seqlen: 4215606
+[2019-07-09 21:20:02.079119] INFO: gensim.models.word2vec: PROGRESS: at 30.07% examples, 193826 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:03.141564] INFO: gensim.models.word2vec: PROGRESS: at 30.58% examples, 193824 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:04.192377] INFO: gensim.models.word2vec: PROGRESS: at 31.05% examples, 193747 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:05.205245] INFO: gensim.models.word2vec: PROGRESS: at 31.54% examples, 193853 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:20:06.237252] INFO: gensim.models.word2vec: PROGRESS: at 32.04% examples, 193872 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:07.239560] INFO: gensim.models.word2vec: PROGRESS: at 32.55% examples, 194024 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:08.240130] INFO: gensim.models.word2vec: PROGRESS: at 33.02% examples, 193937 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:09.249377] INFO: gensim.models.word2vec: PROGRESS: at 33.51% examples, 194061 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:10.271174] INFO: gensim.models.word2vec: PROGRESS: at 34.00% examples, 194154 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:11.307166] INFO: gensim.models.word2vec: PROGRESS: at 34.48% examples, 194115 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:12.308284] INFO: gensim.models.word2vec: PROGRESS: at 34.96% examples, 194148 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:13.317366] INFO: gensim.models.word2vec: PROGRESS: at 35.45% examples, 194179 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:14.336821] INFO: gensim.models.word2vec: PROGRESS: at 35.93% examples, 194140 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:15.355164] INFO: gensim.models.word2vec: PROGRESS: at 36.44% examples, 194239 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:16.376165] INFO: gensim.models.word2vec: PROGRESS: at 36.91% examples, 194206 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:17.387476] INFO: gensim.models.word2vec: PROGRESS: at 37.38% examples, 194248 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:18.439372] INFO: gensim.models.word2vec: PROGRESS: at 37.88% examples, 194292 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:19.441909] INFO: gensim.models.word2vec: PROGRESS: at 38.37% examples, 194322 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:20.485511] INFO: gensim.models.word2vec: PROGRESS: at 38.83% examples, 194316 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:21.495938] INFO: gensim.models.word2vec: PROGRESS: at 39.33% examples, 194390 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:22.513471] INFO: gensim.models.word2vec: PROGRESS: at 39.82% examples, 194438 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:22.758586] INFO: SeqGenerator: Opened file: inputs/bSubtilis168/GCA_000009045.1_ASM904v1_genomic.fna
+[2019-07-09 21:20:22.758745] INFO: SeqGenerator: Memory usage: 0.21256 MB
+[2019-07-09 21:20:22.758785] INFO: SeqGenerator: Current epoch: 5 / 10
+[2019-07-09 21:20:22.791244] INFO: SeqGenerator: Whole fasta seqlen: 4215606
+[2019-07-09 21:20:23.521769] INFO: gensim.models.word2vec: PROGRESS: at 40.27% examples, 194394 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:24.635003] INFO: gensim.models.word2vec: PROGRESS: at 40.80% examples, 194330 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:25.642810] INFO: gensim.models.word2vec: PROGRESS: at 41.28% examples, 194411 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:26.654213] INFO: gensim.models.word2vec: PROGRESS: at 41.75% examples, 194510 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:20:27.689625] INFO: gensim.models.word2vec: PROGRESS: at 42.27% examples, 194593 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:28.693426] INFO: gensim.models.word2vec: PROGRESS: at 42.74% examples, 194628 words/s, in_qsize 6, out_qsize 1
+[2019-07-09 21:20:29.733431] INFO: gensim.models.word2vec: PROGRESS: at 43.24% examples, 194644 words/s, in_qsize 6, out_qsize 1
+[2019-07-09 21:20:30.741490] INFO: gensim.models.word2vec: PROGRESS: at 43.73% examples, 194724 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:31.745946] INFO: gensim.models.word2vec: PROGRESS: at 44.19% examples, 194738 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:20:32.747267] INFO: gensim.models.word2vec: PROGRESS: at 44.64% examples, 194702 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:33.796623] INFO: gensim.models.word2vec: PROGRESS: at 45.13% examples, 194676 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:34.806712] INFO: gensim.models.word2vec: PROGRESS: at 45.60% examples, 194657 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:35.834262] INFO: gensim.models.word2vec: PROGRESS: at 46.10% examples, 194614 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:36.861304] INFO: gensim.models.word2vec: PROGRESS: at 46.59% examples, 194677 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:37.888567] INFO: gensim.models.word2vec: PROGRESS: at 47.08% examples, 194784 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:38.905664] INFO: gensim.models.word2vec: PROGRESS: at 47.55% examples, 194734 words/s, in_qsize 6, out_qsize 1
+[2019-07-09 21:20:39.946708] INFO: gensim.models.word2vec: PROGRESS: at 48.07% examples, 194730 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:40.965512] INFO: gensim.models.word2vec: PROGRESS: at 48.52% examples, 194629 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:42.069851] INFO: gensim.models.word2vec: PROGRESS: at 49.03% examples, 194592 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:43.085697] INFO: gensim.models.word2vec: PROGRESS: at 49.51% examples, 194634 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:43.932013] INFO: SeqGenerator: Opened file: inputs/bSubtilis168/GCA_000009045.1_ASM904v1_genomic.fna
+[2019-07-09 21:20:43.932156] INFO: SeqGenerator: Memory usage: 0.216592 MB
+[2019-07-09 21:20:43.932197] INFO: SeqGenerator: Current epoch: 6 / 10
+[2019-07-09 21:20:43.954839] INFO: SeqGenerator: Whole fasta seqlen: 4215606
+[2019-07-09 21:20:44.112981] INFO: gensim.models.word2vec: PROGRESS: at 49.98% examples, 194588 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:45.162214] INFO: gensim.models.word2vec: PROGRESS: at 50.47% examples, 194585 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:46.205900] INFO: gensim.models.word2vec: PROGRESS: at 50.97% examples, 194622 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:47.218666] INFO: gensim.models.word2vec: PROGRESS: at 51.48% examples, 194661 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:48.227805] INFO: gensim.models.word2vec: PROGRESS: at 51.95% examples, 194638 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:49.228244] INFO: gensim.models.word2vec: PROGRESS: at 52.44% examples, 194769 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:20:50.253592] INFO: gensim.models.word2vec: PROGRESS: at 52.89% examples, 194708 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:51.300075] INFO: gensim.models.word2vec: PROGRESS: at 53.38% examples, 194710 words/s, in_qsize 8, out_qsize 1
+[2019-07-09 21:20:52.308413] INFO: gensim.models.word2vec: PROGRESS: at 53.89% examples, 194842 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:53.313920] INFO: gensim.models.word2vec: PROGRESS: at 54.36% examples, 194862 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:54.326758] INFO: gensim.models.word2vec: PROGRESS: at 54.84% examples, 194869 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:55.364038] INFO: gensim.models.word2vec: PROGRESS: at 55.33% examples, 194866 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:56.381017] INFO: gensim.models.word2vec: PROGRESS: at 55.82% examples, 194883 words/s, in_qsize 8, out_qsize 1
+[2019-07-09 21:20:57.396661] INFO: gensim.models.word2vec: PROGRESS: at 56.29% examples, 194884 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:58.463043] INFO: gensim.models.word2vec: PROGRESS: at 56.82% examples, 194880 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:20:59.473599] INFO: gensim.models.word2vec: PROGRESS: at 57.31% examples, 194973 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:00.514200] INFO: gensim.models.word2vec: PROGRESS: at 57.77% examples, 194853 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:01.516818] INFO: gensim.models.word2vec: PROGRESS: at 58.24% examples, 194874 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:21:02.543047] INFO: gensim.models.word2vec: PROGRESS: at 58.73% examples, 194916 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:03.549766] INFO: gensim.models.word2vec: PROGRESS: at 59.21% examples, 194916 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:04.576781] INFO: gensim.models.word2vec: PROGRESS: at 59.69% examples, 194929 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:04.990695] INFO: SeqGenerator: Opened file: inputs/bSubtilis168/GCA_000009045.1_ASM904v1_genomic.fna
+[2019-07-09 21:21:04.990839] INFO: SeqGenerator: Memory usage: 0.216592 MB
+[2019-07-09 21:21:04.990879] INFO: SeqGenerator: Current epoch: 7 / 10
+[2019-07-09 21:21:05.014819] INFO: SeqGenerator: Whole fasta seqlen: 4215606
+[2019-07-09 21:21:05.627561] INFO: gensim.models.word2vec: PROGRESS: at 60.19% examples, 194937 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:06.637881] INFO: gensim.models.word2vec: PROGRESS: at 60.65% examples, 194946 words/s, in_qsize 6, out_qsize 1
+[2019-07-09 21:21:07.663993] INFO: gensim.models.word2vec: PROGRESS: at 61.12% examples, 194893 words/s, in_qsize 7, out_qsize 1
+[2019-07-09 21:21:08.674015] INFO: gensim.models.word2vec: PROGRESS: at 61.61% examples, 194966 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:09.703447] INFO: gensim.models.word2vec: PROGRESS: at 62.07% examples, 194959 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:10.724271] INFO: gensim.models.word2vec: PROGRESS: at 62.60% examples, 195026 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:21:11.740668] INFO: gensim.models.word2vec: PROGRESS: at 63.07% examples, 195053 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:12.808275] INFO: gensim.models.word2vec: PROGRESS: at 63.56% examples, 195059 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:13.912720] INFO: gensim.models.word2vec: PROGRESS: at 64.05% examples, 195035 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:14.941410] INFO: gensim.models.word2vec: PROGRESS: at 64.55% examples, 195106 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:15.983038] INFO: gensim.models.word2vec: PROGRESS: at 65.07% examples, 195112 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:16.983970] INFO: gensim.models.word2vec: PROGRESS: at 65.53% examples, 195156 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:17.986115] INFO: gensim.models.word2vec: PROGRESS: at 66.02% examples, 195172 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:19.019997] INFO: gensim.models.word2vec: PROGRESS: at 66.49% examples, 195136 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:20.029867] INFO: gensim.models.word2vec: PROGRESS: at 66.96% examples, 195134 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:21.099830] INFO: gensim.models.word2vec: PROGRESS: at 67.46% examples, 195084 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:22.101024] INFO: gensim.models.word2vec: PROGRESS: at 67.92% examples, 195091 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:23.115436] INFO: gensim.models.word2vec: PROGRESS: at 68.40% examples, 195136 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:21:24.161539] INFO: gensim.models.word2vec: PROGRESS: at 68.87% examples, 195133 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:25.172879] INFO: gensim.models.word2vec: PROGRESS: at 69.38% examples, 195180 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:25.975635] INFO: SeqGenerator: Opened file: inputs/bSubtilis168/GCA_000009045.1_ASM904v1_genomic.fna
+[2019-07-09 21:21:25.975768] INFO: SeqGenerator: Memory usage: 0.216624 MB
+[2019-07-09 21:21:25.975806] INFO: SeqGenerator: Current epoch: 8 / 10
+[2019-07-09 21:21:25.998461] INFO: SeqGenerator: Whole fasta seqlen: 4215606
+[2019-07-09 21:21:26.194111] INFO: gensim.models.word2vec: PROGRESS: at 69.87% examples, 195156 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:27.213661] INFO: gensim.models.word2vec: PROGRESS: at 70.32% examples, 195099 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:28.217783] INFO: gensim.models.word2vec: PROGRESS: at 70.80% examples, 195131 words/s, in_qsize 7, out_qsize 1
+[2019-07-09 21:21:29.245678] INFO: gensim.models.word2vec: PROGRESS: at 71.26% examples, 195092 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:30.283673] INFO: gensim.models.word2vec: PROGRESS: at 71.79% examples, 195149 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:31.315374] INFO: gensim.models.word2vec: PROGRESS: at 72.27% examples, 195144 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:21:32.318588] INFO: gensim.models.word2vec: PROGRESS: at 72.75% examples, 195141 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:33.340657] INFO: gensim.models.word2vec: PROGRESS: at 73.27% examples, 195224 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:34.341660] INFO: gensim.models.word2vec: PROGRESS: at 73.73% examples, 195159 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:35.376309] INFO: gensim.models.word2vec: PROGRESS: at 74.23% examples, 195203 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:36.377138] INFO: gensim.models.word2vec: PROGRESS: at 74.73% examples, 195256 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:21:37.384760] INFO: gensim.models.word2vec: PROGRESS: at 75.20% examples, 195262 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:21:38.390071] INFO: gensim.models.word2vec: PROGRESS: at 75.69% examples, 195234 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:39.416766] INFO: gensim.models.word2vec: PROGRESS: at 76.20% examples, 195270 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:40.417784] INFO: gensim.models.word2vec: PROGRESS: at 76.68% examples, 195318 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:41.432777] INFO: gensim.models.word2vec: PROGRESS: at 77.14% examples, 195278 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:42.481551] INFO: gensim.models.word2vec: PROGRESS: at 77.65% examples, 195277 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:43.483335] INFO: gensim.models.word2vec: PROGRESS: at 78.15% examples, 195330 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:44.496284] INFO: gensim.models.word2vec: PROGRESS: at 78.63% examples, 195329 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:21:45.571438] INFO: gensim.models.word2vec: PROGRESS: at 79.11% examples, 195312 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:46.589627] INFO: gensim.models.word2vec: PROGRESS: at 79.58% examples, 195289 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:47.017667] INFO: SeqGenerator: Opened file: inputs/bSubtilis168/GCA_000009045.1_ASM904v1_genomic.fna
+[2019-07-09 21:21:47.017821] INFO: SeqGenerator: Memory usage: 0.216944 MB
+[2019-07-09 21:21:47.017861] INFO: SeqGenerator: Current epoch: 9 / 10
+[2019-07-09 21:21:47.041192] INFO: SeqGenerator: Whole fasta seqlen: 4215606
+[2019-07-09 21:21:47.647607] INFO: gensim.models.word2vec: PROGRESS: at 80.09% examples, 195347 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:48.680549] INFO: gensim.models.word2vec: PROGRESS: at 80.59% examples, 195361 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:49.729736] INFO: gensim.models.word2vec: PROGRESS: at 81.09% examples, 195420 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:50.750493] INFO: gensim.models.word2vec: PROGRESS: at 81.57% examples, 195414 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:51.810293] INFO: gensim.models.word2vec: PROGRESS: at 82.08% examples, 195425 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:52.815049] INFO: gensim.models.word2vec: PROGRESS: at 82.56% examples, 195414 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:53.860805] INFO: gensim.models.word2vec: PROGRESS: at 83.04% examples, 195423 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:54.863761] INFO: gensim.models.word2vec: PROGRESS: at 83.50% examples, 195406 words/s, in_qsize 8, out_qsize 1
+[2019-07-09 21:21:55.916449] INFO: gensim.models.word2vec: PROGRESS: at 84.02% examples, 195443 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:56.937350] INFO: gensim.models.word2vec: PROGRESS: at 84.53% examples, 195469 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:57.964907] INFO: gensim.models.word2vec: PROGRESS: at 84.98% examples, 195454 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:58.970869] INFO: gensim.models.word2vec: PROGRESS: at 85.46% examples, 195461 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:21:59.978552] INFO: gensim.models.word2vec: PROGRESS: at 85.92% examples, 195438 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:22:01.032662] INFO: gensim.models.word2vec: PROGRESS: at 86.39% examples, 195385 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:22:02.057708] INFO: gensim.models.word2vec: PROGRESS: at 86.90% examples, 195421 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:22:03.078690] INFO: gensim.models.word2vec: PROGRESS: at 87.38% examples, 195392 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:22:04.111622] INFO: gensim.models.word2vec: PROGRESS: at 87.87% examples, 195383 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:22:05.127948] INFO: gensim.models.word2vec: PROGRESS: at 88.39% examples, 195414 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:22:06.144599] INFO: gensim.models.word2vec: PROGRESS: at 88.87% examples, 195431 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:22:07.205059] INFO: gensim.models.word2vec: PROGRESS: at 89.34% examples, 195376 words/s, in_qsize 6, out_qsize 1
+[2019-07-09 21:22:08.080963] INFO: SeqGenerator: Opened file: inputs/bSubtilis168/GCA_000009045.1_ASM904v1_genomic.fna
+[2019-07-09 21:22:08.081122] INFO: SeqGenerator: Memory usage: 0.216944 MB
+[2019-07-09 21:22:08.081164] INFO: SeqGenerator: Current epoch: 10 / 10
+[2019-07-09 21:22:08.105296] INFO: SeqGenerator: Whole fasta seqlen: 4215606
+[2019-07-09 21:22:08.218924] INFO: gensim.models.word2vec: PROGRESS: at 89.81% examples, 195369 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:22:09.277690] INFO: gensim.models.word2vec: PROGRESS: at 90.29% examples, 195347 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:22:10.297214] INFO: gensim.models.word2vec: PROGRESS: at 90.78% examples, 195366 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:22:11.301279] INFO: gensim.models.word2vec: PROGRESS: at 91.24% examples, 195339 words/s, in_qsize 7, out_qsize 1
+[2019-07-09 21:22:12.315766] INFO: gensim.models.word2vec: PROGRESS: at 91.71% examples, 195340 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:22:13.320928] INFO: gensim.models.word2vec: PROGRESS: at 92.17% examples, 195341 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:22:14.335694] INFO: gensim.models.word2vec: PROGRESS: at 92.67% examples, 195368 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:22:15.354357] INFO: gensim.models.word2vec: PROGRESS: at 93.15% examples, 195363 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:22:16.372372] INFO: gensim.models.word2vec: PROGRESS: at 93.61% examples, 195349 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:22:17.396871] INFO: gensim.models.word2vec: PROGRESS: at 94.12% examples, 195356 words/s, in_qsize 6, out_qsize 1
+[2019-07-09 21:22:18.399981] INFO: gensim.models.word2vec: PROGRESS: at 94.60% examples, 195356 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:22:19.400238] INFO: gensim.models.word2vec: PROGRESS: at 95.07% examples, 195371 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:22:20.419888] INFO: gensim.models.word2vec: PROGRESS: at 95.55% examples, 195350 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:22:21.426675] INFO: gensim.models.word2vec: PROGRESS: at 96.04% examples, 195387 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:22:22.440636] INFO: gensim.models.word2vec: PROGRESS: at 96.52% examples, 195384 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:22:23.460276] INFO: gensim.models.word2vec: PROGRESS: at 97.03% examples, 195370 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:22:24.467093] INFO: gensim.models.word2vec: PROGRESS: at 97.50% examples, 195385 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:22:25.486122] INFO: gensim.models.word2vec: PROGRESS: at 97.99% examples, 195397 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:22:26.499956] INFO: gensim.models.word2vec: PROGRESS: at 98.46% examples, 195383 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:22:27.504571] INFO: gensim.models.word2vec: PROGRESS: at 98.95% examples, 195411 words/s, in_qsize 8, out_qsize 0
+[2019-07-09 21:22:28.509958] INFO: gensim.models.word2vec: PROGRESS: at 99.39% examples, 195350 words/s, in_qsize 7, out_qsize 0
+[2019-07-09 21:22:29.568607] INFO: gensim.models.word2vec: PROGRESS: at 99.88% examples, 195343 words/s, in_qsize 6, out_qsize 0
+[2019-07-09 21:22:29.638000] INFO: gensim.models.word2vec: worker thread finished; awaiting finish of 3 more threads
+[2019-07-09 21:22:29.714662] INFO: gensim.models.word2vec: worker thread finished; awaiting finish of 2 more threads
+[2019-07-09 21:22:29.718750] INFO: gensim.models.word2vec: worker thread finished; awaiting finish of 1 more threads
+[2019-07-09 21:22:29.750298] INFO: gensim.models.word2vec: worker thread finished; awaiting finish of 0 more threads
+[2019-07-09 21:22:29.750393] INFO: gensim.models.word2vec: training on 42077233 raw words (41342410 effective words) took 211.6s, 195425 effective words/s
+[2019-07-09 21:22:29.750585] INFO: gensim.models.word2vec: storing 87284x100 projection weights into results/bSubtilis168/dna2vec-20190709-2117-k3to8-100d-10c-40Mbp-sliding-b2x.w2v
+[2019-07-09 21:22:33.177604] INFO: Histogram: Percent of  3-mers: 16.7% (7010483)
+[2019-07-09 21:22:33.177736] INFO: Histogram: Percent of  4-mers: 16.7% (7015050)
+[2019-07-09 21:22:33.177776] INFO: Histogram: Percent of  5-mers: 16.7% (7009264)
+[2019-07-09 21:22:33.177810] INFO: Histogram: Percent of  6-mers: 16.7% (7020959)
+[2019-07-09 21:22:33.177842] INFO: Histogram: Percent of  7-mers: 16.7% (7008615)
+[2019-07-09 21:22:33.177872] INFO: Histogram: Percent of  8-mers: 16.7% (7012862)
+[2019-07-09 21:22:33.177907] INFO: Histogram: Number of base-pairs: 231426924
+[2019-07-09 21:22:33.177967] INFO: Benchmark:  wall=4.957m cpu=15.604m
