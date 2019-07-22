@@ -33,7 +33,31 @@ class MultiKModel:
         return self.data[k_len].model
 
     def vector(self, vocab):
-        return self.data[len(vocab)].model[vocab]
+        #if input is a single kmer
+        if isinstance(vocab, str):
+            return self.data[len(vocab)].model[vocab]
+        #if input is a list of kmers
+        elif isinstance(vocab, list):
+            #if input is a single list of kmers (i.e. from a single DNA sequence)
+            if isinstance(vocab[0], str):
+                #initialize empty array to store kmer embedding vectors 
+                kmer_vecs = np.zeros(shape = (self.vec_dim, len(vocab)))
+                for index, kmer in enumerate(vocab):
+                    kmer_vecs[:, index] = self.data[len(kmer)].model[kmer]
+                return kmer_vecs
+            #if input is a list of lists (i.e. from multiple DNA sequences)
+            elif isinstance(vocab[0], list):
+                #initialize empty list to store kmer embedding vectors for each input list
+                vec_list = []
+                for kmer_list in vocab:
+                    #initialize empty array to store kmer embedding vectors 
+                    kmer_vecs = np.zeros(shape = (self.vec_dim, len(kmer_list)))
+                    for index, kmer in enumerate(kmer_list):
+                        kmer_vecs[:, index] = self.data[len(kmer)].model[kmer]
+                    vec_list.append(kmer_vecs)
+                return vec_list   
+        else:
+            raise ValueError("Invalid data type, cannot return vector(s) from embedding.")
 
     def unitvec(self, vec):
         return matutils.unitvec(vec)
