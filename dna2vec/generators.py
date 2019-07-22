@@ -15,6 +15,7 @@ class SeqCleaner:
     def __init__(self):
         pass
 
+    #for a single sequence
     def get_acgt_seq(self, rng, seq):
         
         #convert string to a list, so we can make changes
@@ -59,7 +60,12 @@ class SeqCleaner:
         seq = "".join(seq).upper()
 
         return seq
-
+    
+    #for a list of sequences
+    def get_acgt_seqs(self, rng, seqs):
+        
+        return np.vectorize(self.get_acgt_seq)(rng, seqs)
+    
 class SeqFragmenter:
     """
     Split a sequence into small sequences based on some criteria, e.g. 'N' characters
