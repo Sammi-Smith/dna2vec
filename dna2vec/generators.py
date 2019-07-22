@@ -62,8 +62,7 @@ class SeqCleaner:
         return seq
     
     #for a list of sequences
-    def get_acgt_seqs(self, rng, seqs):
-        
+    def get_acgt_seqs(self, rng, seqs):       
         return np.vectorize(self.get_acgt_seq)(rng, seqs)
     
 class SeqFragmenter:
@@ -86,6 +85,14 @@ class SlidingKmerFragmenter:
 
     def apply(self, rng, seq):
         return [seq[i: i + rng.randint(self.k_low, self.k_high + 1)] for i in range(len(seq) - self.k_high + 1)]
+    
+    def apply_to_list(self, rng, seqs):
+
+        kmer_lists = []
+        for seq in seqs:
+            kmer_lists.append(self.apply(rng, seq))
+
+        return kmer_lists
 
 class DisjointKmerFragmenter:
     """
