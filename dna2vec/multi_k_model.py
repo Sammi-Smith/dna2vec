@@ -41,9 +41,9 @@ class MultiKModel:
             #if input is a single list of kmers (i.e. from a single DNA sequence)
             if isinstance(vocab[0], str):
                 #initialize empty array to store kmer embedding vectors 
-                kmer_vecs = np.zeros(shape = (self.vec_dim, len(vocab)))
+                kmer_vecs = np.zeros(shape = (len(vocab), self.vec_dim))
                 for index, kmer in enumerate(vocab):
-                    kmer_vecs[:, index] = self.data[len(kmer)].model[kmer]
+                    kmer_vecs[index, :] = self.data[len(kmer)].model[kmer]
                 return kmer_vecs
             #if input is a list of lists (i.e. from multiple DNA sequences)
             elif isinstance(vocab[0], list):
@@ -51,9 +51,9 @@ class MultiKModel:
                 vec_list = []
                 for kmer_list in vocab:
                     #initialize empty array to store kmer embedding vectors 
-                    kmer_vecs = np.zeros(shape = (self.vec_dim, len(kmer_list)))
+                    kmer_vecs = np.zeros(shape = (len(kmer_list), self.vec_dim))
                     for index, kmer in enumerate(kmer_list):
-                        kmer_vecs[:, index] = self.data[len(kmer)].model[kmer]
+                        kmer_vecs[index, :] = self.data[len(kmer)].model[kmer]
                     vec_list.append(kmer_vecs)
                 return vec_list   
         else:
