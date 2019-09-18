@@ -84,8 +84,16 @@ class SlidingKmerFragmenter:
         self.k_high = k_high
 
     def apply(self, rng, seq):
-        return [seq[i: i + rng.randint(self.k_low, self.k_high + 1)] for i in range(len(seq) - self.k_high + 1)]
-    
+        if len(seq) < self.k_low: #this sequence is too short to be in the lookup table
+            seq_to_add = ''.join(rng.choice(['A', 'C', 'G', 'T'], 
+                                            size = self.k_low - len(seq)))
+            lengthened_seq = seq + seq_to_add
+            return [lengthened_seq]
+        elif len(seq) < self.k_high: #this sequence is too short to be split into kmers
+            return [seq]
+        else:
+            return [seq[i: i + rng.randint(self.k_low, self.k_high + 1)] for i in range(len(seq) - self.k_high + 1)]
+      
     def apply_to_list(self, rng, seqs):
 
         kmer_lists = []
