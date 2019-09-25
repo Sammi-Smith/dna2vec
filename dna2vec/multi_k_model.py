@@ -36,26 +36,25 @@ class MultiKModel:
         #if input is a single kmer
         if isinstance(vocab, str):
             return self.data[len(vocab)].model[vocab]
+            
         #if input is a list of kmers
         elif isinstance(vocab, list):
             #if input is a single list of kmers (i.e. from a single DNA sequence)
             if isinstance(vocab[0], str):
-                #initialize empty array to store kmer embedding vectors 
-                kmer_vecs = np.zeros(shape = (len(vocab), self.vec_dim))
-                for index, kmer in enumerate(vocab):
-                    kmer_vecs[index, :] = self.data[len(kmer)].model[kmer]
-                return kmer_vecs
+                 kmer_vecs_list = [self.data[len(kmer)].model[kmer] for kmer in vocab]
+                 kmer_vecs = np.asarray(kmer_vecs_list)
+                 return kmer_vecs    
+                 
             #if input is a list of lists (i.e. from multiple DNA sequences)
             elif isinstance(vocab[0], list):
                 #initialize empty list to store kmer embedding vectors for each input list
                 vec_list = []
-                for kmer_list in vocab:
-                    #initialize empty array to store kmer embedding vectors 
-                    kmer_vecs = np.zeros(shape = (len(kmer_list), self.vec_dim))
-                    for index, kmer in enumerate(kmer_list):
-                        kmer_vecs[index, :] = self.data[len(kmer)].model[kmer]
+                for kmer_list in vocab:            
+                    kmer_vecs_list = [self.data[len(kmer)].model[kmer] for kmer in kmer_list]
+                    kmer_vecs = np.asarray(kmer_vecs_list)
                     vec_list.append(kmer_vecs)
-                return vec_list   
+                return vec_list
+                
         else:
             raise ValueError("Invalid data type, cannot return vector(s) from embedding.")
 
