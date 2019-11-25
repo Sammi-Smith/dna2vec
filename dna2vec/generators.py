@@ -8,6 +8,63 @@ import numpy as np
 def remove_empty(str_list):
     return filter(bool, str_list)  # fastest way to remove empty string
 
+class SeqCleaner:
+    """
+    Remove any ambiguous IUPAC nucleotide codes from a sequence, randomly replacing with an appropriate base
+    """
+    def __init__(self):
+        pass
+
+    #for a single sequence
+    def get_acgt_seq(self, rng, seq):
+        
+        #convert string to a list, so we can make changes
+        seq = list(seq.lower())
+
+        for index, base in enumerate(seq):
+            #for the standard 4 bases, don't change them
+            if any(base == standard_base for standard_base in ['a', 'c', 'g', 't']):
+                continue
+            #for ambiguous IUPAC nucleotide codes, randomly replace with an appropriate base
+            elif base == 'r':
+                seq[index] = rng.choice(['a', 'g'])
+            elif base == 'y':
+                seq[index] = rng.choice(['c', 't'])
+            elif base == 's':
+                seq[index] = rng.choice(['g', 'c'])
+            elif base == 'w':
+                seq[index] = rng.choice(['a', 't'])
+            elif base == 'k':
+                seq[index] = rng.choice(['g', 't'])
+            elif base == 'm':
+                seq[index] = rng.choice(['a', 'c'])
+            elif base == 'b':
+                seq[index] = rng.choice(['c', 'g', 't'])
+            elif base == 'd':
+                seq[index] = rng.choice(['a', 'g', 't'])
+            elif base == 'h':
+                seq[index] = rng.choice(['a', 'c', 't'])
+            elif base == 'v':
+                seq[index] = rng.choice(['a', 'c', 'g'])
+            elif base == 'n':
+                seq[index] = rng.choice(['a', 'c', 'g', 't'])
+            elif base == '.': #means gap
+                seq[index] = rng.choice(['a', 'c', 'g', 't'])
+            elif base == '-': #means gap
+                seq[index] = rng.choice(['a', 'c', 'g', 't'])
+            else:
+                raise ValueError("Cannot convert mystery nucleotide '%s'" % base)
+
+
+        #convert list back to string
+        seq = "".join(seq).upper()
+
+        return seq
+    
+    #for a list of sequences
+    def get_acgt_seqs(self, rng, seqs):       
+        return np.vectorize(self.get_acgt_seq)(rng, seqs)
+    
 class SeqFragmenter:
     """
     Split a sequence into small sequences based on some criteria, e.g. 'N' characters
@@ -27,7 +84,26 @@ class SlidingKmerFragmenter:
         self.k_high = k_high
 
     def apply(self, rng, seq):
-        return [seq[i: i + rng.randint(self.k_low, self.k_high + 1)] for i in range(len(seq) - self.k_high + 1)]
+        seq_len = len(seq)
+        if seq_len < self.k_low: #this sequence is too short to be in the lookup table
+            seq_to_add = ''.join(rng.choice(['A', 'C', 'G', 'T'], 
+                                            size = self.k_low - seq_len))
+            lengthened_seq = seq + seq_to_add
+            return [lengthened_seq]
+        elif seq_len < self.k_high: #this sequence is too short to be split into kmers
+            return [seq]
+        else:
+            num_kmers = seq_len - self.k_high + 1
+            rand_ints = rng.randint(self.k_low, self.k_high + 1, size = num_kmers)
+            return [seq[i: i + rand_ints[i]] for i in range(num_kmers)]   
+      
+    def apply_to_list(self, rng, seqs):
+
+        kmer_lists = []
+        for seq in seqs:
+            kmer_lists.append(self.apply(rng, seq))
+
+        return kmer_lists
 
 class DisjointKmerFragmenter:
     """
